@@ -3,7 +3,7 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 
 from app.routes import register_all_routes
-
+from app.aws_agent import Agent
 
 def create_app():
     print("Creating app...")
@@ -13,7 +13,16 @@ def create_app():
         "http://localhost:5173",
         "http://172.18.0.3:5173"
     ])
+
     register_all_routes(app)
+
+    # Create an instance of the Agent
+    agent = Agent()
+    
+    # Agent Testing: Delete this later
+    prompt = "Hello, how are you?"
+    agent_response = agent.invoke(prompt)
+    print(f"Agent response: {agent_response}")
 
     @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')
