@@ -51,10 +51,18 @@ def register_chat_routes(app, agent):
 
         # Error 400
         if not data or 'prompt' not in data:
-            return jsonify({'error': 'Missing "prompt" in request body'}), 400
+            return jsonify({'error': 'Missing "prompt" in request body'})
 
         user_prompt = data['prompt']
 
-        mock_response = f"Response from backend to prompt: {user_prompt}"
-
-        return jsonify({'response': mock_response})
+        try:
+            agent_response = agent.invoke(user_prompt)
+            if agent_response is None:
+                raise Exception("Error invoking agent.")
+            return jsonify({'response': str(agent_response)})
+        # Error 500
+        except Exception as e:
+            # TODO: change to error
+            return jsonify({
+                'error': f"An error occurred: {str(e)}"
+            })
