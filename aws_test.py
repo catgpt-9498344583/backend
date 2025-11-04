@@ -2,9 +2,9 @@ import boto3
 import os
 import uuid
 
-with open('.env') as f:
+with open(".env") as f:
     for line in f:
-        key, value = line.strip().split('=')
+        key, value = line.strip().split("=")
         if key and value:
             # print(f"Setting {key}={value} from .env")
             # Set environment variables for boto3 to pick up

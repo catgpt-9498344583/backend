@@ -24,11 +24,11 @@ def register_chat_routes(app, agent):
                        returning responses (e.g., using AWS Bedrock).
     """
 
-    @app.route('/api/hello')
+    @app.route("/api/hello")
     def hello():
         return {"message": "Hello from backend!"}
 
-    @app.route('/api/chat', methods=['POST'])
+    @app.route("/api/chat", methods=["POST"])
     def chat():
         """
         Handles user chat prompts and returns AI-generated responses.
@@ -50,19 +50,17 @@ def register_chat_routes(app, agent):
         data = request.get_json()
 
         # Error 400
-        if not data or 'prompt' not in data:
-            return jsonify({'error': 'Missing "prompt" in request body'})
+        if not data or "prompt" not in data:
+            return jsonify({"error": 'Missing "prompt" in request body'})
 
-        user_prompt = data['prompt']
+        user_prompt = data["prompt"]
 
         try:
             agent_response = agent.invoke(user_prompt)
             if agent_response is None:
                 raise Exception("Error invoking agent.")
-            return jsonify({'response': str(agent_response)})
+            return jsonify({"response": str(agent_response)})
         # Error 500
         except Exception as e:
             # TODO: change to error
-            return jsonify({
-                'error': f"An error occurred: {str(e)}"
-            })
+            return jsonify({"error": f"An error occurred: {str(e)}"})
