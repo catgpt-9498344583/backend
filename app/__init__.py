@@ -34,17 +34,14 @@ def create_app():
     print("Creating app...")
     app = Flask(__name__, static_folder="static", static_url_path="")
 
-    CORS(app, origins=[
-        "http://localhost:5173",
-        "http://172.18.0.3:5173"
-    ])
+    CORS(app, origins=["http://localhost:5173", "http://172.18.0.3:5173"])
 
     agent = Agent()
 
     register_all_routes(app, agent)
 
-    @app.route('/', defaults={'path': ''})
-    @app.route('/<path:path>')
+    @app.route("/", defaults={"path": ""})
+    @app.route("/<path:path>")
     def serve_frontend(path):
         """
         Serve static frontend files or fallback to index.html for SPA routing.
@@ -63,6 +60,6 @@ def create_app():
         if path != "" and os.path.exists(full_path):
             return send_from_directory(static_dir, path)
 
-        return send_from_directory(static_dir, 'index.html')
+        return send_from_directory(static_dir, "index.html")
 
     return app
