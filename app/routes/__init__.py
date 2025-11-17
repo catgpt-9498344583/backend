@@ -10,7 +10,7 @@ from .chat import register_chat_routes
 
 
 # Register routes
-def register_all_routes(app, agent):
+def register_all_routes(app):
     """
     Registers all routes for the Flask app.
 
@@ -23,4 +23,4 @@ def register_all_routes(app, agent):
     """
 
     print("Registering routes...")
-    register_chat_routes(app, agent)
+    register_chat_routes(app)

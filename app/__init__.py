@@ -13,7 +13,6 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 
 from app.routes import register_all_routes
-from app.aws_agent import Agent
 
 
 def create_app():
@@ -39,9 +38,7 @@ def create_app():
         "http://172.18.0.3:5173"
     ])
 
-    agent = Agent()
-
-    register_all_routes(app, agent)
+    register_all_routes(app)
 
     @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')
