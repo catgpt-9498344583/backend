@@ -12,16 +12,16 @@ to have an `invoke(prompt: str) -> str` method that returns AI-generated respons
 """
 
 from flask import request, jsonify
+from uuid import UUID, uuid4
+from app.aws_agent import Agent
 
 
-def register_chat_routes(app, agent):
+def register_chat_routes(app):
     """
     Registers chat-related API routes to the given Flask app.
 
-    Args:
-        app (Flask): The Flask application instance.
-        agent (Agent): An instance of a class capable of processing prompts and
-                       returning responses (e.g., using AWS Bedrock).
+    The route now obtains or creates the correct Agent instance
+    using Agent.get_agent(session_id).
     """
 
     @app.route('/api/hello')
@@ -30,39 +30,41 @@ def register_chat_routes(app, agent):
 
     @app.route('/api/chat', methods=['POST'])
     def chat():
-        """
-        Handles user chat prompts and returns AI-generated responses.
-
-        Request:
-            Method: POST
-            Content-Type: application/json
-            Body: { "prompt": "<user prompt>" }
-
-        Responses:
-            200: JSON { "response": "<AI-generated response>" }
-                 - Returned when the prompt is successfully processed.
-            400: JSON { "error": "Missing 'prompt'" }
-                 - Returned when the request body is invalid or prompt is missing.
-            500: JSON { "error": "Internal server error message" }
-                 - Returned on any unexpected exception (e.g., agent failure).
-        """
-
+        # Parse JSON body
         data = request.get_json()
+        print("Received request: ", data)
 
-        # Error 400
-        if not data or 'prompt' not in data:
-            return jsonify({'error': 'Missing "prompt" in request body'})
+        if not data:
+            return jsonify({"error": "Missing JSON body"}), 400
 
-        user_prompt = data['prompt']
+        prompt = data.get("prompt")
+        session_id = data.get("sessionId")
 
+        if not prompt:
+            return jsonify({"error": "Missing 'prompt' in request body"}), 400
+
+        # Get or create the correct agent for this session
+        agent_instance = Agent.get_or_create(session_id)
+
+        # Invoke AWS agent
+        result = agent_instance.invoke(prompt)
+
+        if result is None:
+            return jsonify({"error": "Agent invocation failed"}), 500
+
+        return jsonify(result), 200
+
+    @app.route('/api/disconnect', methods=['POST'])
+    def disconnect():
+        data = request.get_json()
+        if not data or 'sessionId' not in data:
+            return jsonify({"error": "Missing sessionId"}), 400
+
+        session_id = data['sessionId']
         try:
-            agent_response = agent.invoke(user_prompt)
-            if agent_response is None:
-                raise Exception("Error invoking agent.")
-            return jsonify({'response': str(agent_response)})
-        # Error 500
-        except Exception as e:
-            # TODO: change to error
-            return jsonify({
-                'error': f"An error occurred: {str(e)}"
-            })
+            session_uuid = UUID(session_id)
+        except Exception:
+            return jsonify({"error": "Invalid sessionId"}), 400
+
+        Agent.mark_for_deletion(session_uuid)
+        return jsonify({"status": "ok"}), 200
