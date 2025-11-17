@@ -1,0 +1,43 @@
+[
+  {
+    "question": "What are the admission requirements for the PhD in Software Engineering at the University of Arizona?",
+    "answer": "To be considered for admission, applicants must hold a Bachelor of Science degree in a computing-related field with a minimum GPA of 3.0 in prior undergraduate or graduate work. Applicants should also demonstrate proficiency in at least one programming language or 1–2 years of software industry experience. A strong alignment between the applicant’s research interests and faculty expertise is an important factor in admission decisions. Required application materials include: three letters of recommendation, a statement of purpose, a resume or CV, and academic transcripts. The GRE is optional, but competitive scores are: Verbal 153, Quantitative 159, and Writing 4.0. International applicants must also provide proof of English proficiency through one of the following: TOEFL iBT ≥ 79 (or 60 revised PBT), IELTS ≥ 7 (no section below 6), Pearson PTE ≥ 60, or CEPT Full Academic ≥ 110. Duolingo is not accepted for PhD admission."
+  },
+  {
+    "question": "What coursework is required for the PhD in Software Engineering?",
+    "answer": "The PhD program requires a minimum of 63 total units of graduate coursework and research. Core Coursework (15 units): SFWE 513 Software Engineering Research Methods (3), SFWE 507 Foundations of Software Engineering (3), plus 9 units selected from SFWE 502, 503, 504, 505, or 506. Technical Electives (16 units) must be chosen with approval from the faculty advisor and Director of Graduate Studies. Colloquium and Dissertation Research (20 units): SFWE 695A Graduate Colloquium (2) and SFWE 920 Dissertation Research (18). Students must also complete 12 units of minor coursework in a related field."
+  },
+  {
+    "question": "What are the minor requirements for PhD students in Software Engineering?",
+    "answer": "PhD students must complete 12 units of graduate coursework in a minor field, which can be a single discipline (12 units from one department) or a split minor (6 units from each of two departments). Common minors include Systems and Industrial Engineering, Electrical and Computer Engineering, Computer Science, Information Science, or Statistics. The minor advisor typically serves on the student’s comprehensive exam committee."
+  },
+  {
+    "question": "Are there prerequisite or foundation requirements before beginning PhD coursework?",
+    "answer": "Applicants are expected to possess a strong foundation in computer science or software engineering principles, including software design and architecture, programming and data structures, and systems or application development experience. Students without sufficient background may be required to take preparatory or master’s-level SFWE courses before enrolling in doctoral coursework."
+  },
+  {
+    "question": "What technical electives are available for PhD Software Engineering students?",
+    "answer": "Students may choose from an approved list of graduate technical electives, including but not limited to: SFWE 501 Software Assurance, SFWE 508 Data Mining, SFWE 509 Cloud Computing Principles and Practices, SFWE 510 Cloud Native Software Engineering, SFWE 511 Software for Industrial Control Systems, SFWE 512 Robotics, ECE 509 Cybersecurity Concepts, Theory, and Practice, ECE 523 Engineering Applications of Machine Learning and Data Analytics, SIE 533 Fundamentals of Data Science for Engineers, SIE 558 Model-Based Systems Engineering, and ECE 576B Embedded System Design and Optimization. Other courses may be approved by the faculty advisor or Graduate Studies Committee to align with research focus areas."
+  },
+  {
+    "question": "How do students select research focus areas and faculty advisors?",
+    "answer": "During their first year, students identify a faculty advisor whose research interests align with their own. Typical areas of research within the SFWE PhD program include software architecture and design, cloud and distributed systems, cybersecurity and software assurance, robotics and embedded systems, machine learning and AI applications in software engineering, data analytics, and model-based systems engineering. Faculty assignments are based on mutual research interests and availability, and students are encouraged to reach out to potential advisors early in their first semester."
+  },
+  {
+    "question": "What are the requirements for the Doctoral Qualifying Examination (DQE)?",
+    "answer": "The Doctoral Qualifying Examination (DQE) evaluates a student’s readiness for advanced research by testing their understanding of software engineering fundamentals and their ability to integrate knowledge across SFWE domains. It must be taken before the end of the third semester and is administered by a Qualifying Exam Committee of 3–5 faculty members chaired by the student’s advisor. The exam may include written and/or oral components covering the student’s coursework and research preparation. Students who do not pass on the first attempt may retake the exam once in the following semester. Passing the DQE is required to proceed toward PhD candidacy."
+  },
+  {
+    "question": "What are the dissertation and final defense requirements?",
+    "answer": "After passing comprehensive exams and being admitted to candidacy, students complete a dissertation representing original research in software engineering. Requirements include 18 units of SFWE 920 Dissertation Research, a written dissertation that includes problem definition, literature review, methodology, findings, and implications, and adherence to Graduate College formatting guidelines found at https://grad.arizona.edu/gsas/dissertations-theses/dissertation-and-thesis-formatting-guides. Students must also complete a public oral defense, announced at least two weeks in advance, consisting of a public presentation followed by a closed evaluation with the faculty committee. Successful completion of both the defense and the written dissertation is required for graduation."
+  },
+  {
+    "question": "What funding opportunities are available for PhD Software Engineering students?",
+    "answer": "Both domestic and international students are encouraged to apply by December 1 for priority funding consideration. Funding opportunities include Graduate Teaching Assistantships (GTA) awarded competitively based on academic merit and teaching experience, Graduate Research Assistantships (GRA) offered through faculty research grants, and University Fellowships and College of Engineering scholarships for exceptional candidates. Assistantships are not guaranteed for all incoming students. International applicants may also be considered for conditional admission if other requirements are pending."
+  },
+  {
+    "question": "Where is the Software Engineering PhD program offered, and who can I contact for more information?",
+    "answer": "The PhD in Software Engineering is offered by the College of Engineering at the University of Arizona, housed within the Department of Electrical and Computer Engineering (ECE). The program is available both on the main Tucson campus and online through Arizona Online. Key contacts: Graduate Program Coordinator: Tami J. Whelan (+1 520-621-6195); Director of Graduate Studies: Dr. Tosiron Adegbija (+1 520-621-3291); Admissions Contact: Tami J. Whelan (+1 520-621-6195). Tuition and fees can be calculated through the UA Bursar’s Office Tuition and Fees Calculator, and any special course fees are listed by the Registrar’s Office. Domestic and international applicants are encouraged to apply by December 1 for funding priority. The GRE institution code for the University of Arizona is 4832. More details can be found in the University’s Main Catalog at https://grad.arizona.edu/catalog/programinfo/SFEPHD."
+  }
+]
+
