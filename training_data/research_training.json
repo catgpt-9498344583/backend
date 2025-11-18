@@ -1,0 +1,492 @@
+{
+  "university": "University of Arizona",
+  "department": "Electrical & Computer Engineering (ECE)",
+  "research": {
+    "focus_areas": [
+      {
+        "id": "ai_ml",
+        "name": "Artificial Intelligence & Machine Learning",
+        "description": "Research on edge AI, embedded learning, explainable AI, security/privacy in ML, AI for health, and cyber-physical systems.",
+        "faculty": [
+          {
+            "name": "Pratik Satam",
+            "title": "Assistant Professor",
+            "interests": ["Cybersecurity", "Network security", "IoT", "CPS security"],
+            "email": "pratiksatam@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/pratik-satam"
+          },
+          {
+            "name": "Tosiron Adebgija",
+            "title": "Associate Professor",
+            "interests": ["High-performance embedded computing", "Low-power embedded systems"],
+            "email": "tosiron@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Ali Akoglu",
+            "title": "Professor",
+            "interests": ["Reconfigurable computing", "Neuromorphic computing", "Adaptive hardware"],
+            "email": "akoglu@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/ali-akoglu"
+          },
+          {
+            "name": "Boulat Bash",
+            "title": "Associate Professor",
+            "interests": ["Information theory", "Reliability", "Security"],
+            "email": "boulat@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Ali Bilgin",
+            "title": "Associate Professor",
+            "interests": ["Medical imaging AI", "Signal processing", "MRI"],
+            "email": "bilgin@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Eungjoo Lee",
+            "title": "Assistant Professor",
+            "interests": ["Embedded computer vision", "Medical imaging", "Deep learning"],
+            "email": "eungjoolee@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/eung-joo-lee",
+            "projects": ["Deep-learning models optimized for embedded medical vision systems"]
+          },
+          {
+            "name": "Siyang Cao",
+            "title": "Associate Professor",
+            "interests": ["Radar signal processing", "Sensor fusion", "Autonomous systems"],
+            "email": "caos@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty",
+            "projects": ["Auto-labeling radar point-clouds via YOLO camera detections"]
+          },
+          {
+            "name": "Han Xu",
+            "title": "Assistant Professor",
+            "interests": ["ML robustness", "Fairness", "Privacy"],
+            "email": "xuhan2@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/han-xu"
+          },
+          {
+            "name": "Wolfgang Fink",
+            "title": "Associate Professor",
+            "interests": ["Autonomous systems", "Vision", "Brain-machine interfaces"],
+            "email": "wfink@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/wolfgang-fink",
+            "projects": ["Autonomous robotic space exploration", "Biomedical sensors & vision prosthesis"]
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "DEEPSECURE",
+            "description": "A hardware + software platform for privacy-preserving machine learning.",
+            "lead_faculty": ["Michael W. Wu"]
+          },
+          {
+            "title": "Embedded Vision for Medical Diagnostics",
+            "description": "Optimizing deep learning for vision models on low-power medical devices.",
+            "lead_faculty": ["Eungjoo Lee"]
+          }
+        ],
+        "extra_links": [
+          "https://ece.engineering.arizona.edu/faculty-staff/faculty/pratik-satam",
+          "https://ece.engineering.arizona.edu/faculty-staff/faculty/eung-joo-lee"
+        ]
+      },
+      {
+        "id": "autonomous_robotics",
+        "name": "Autonomous Systems, Communications & Robotics",
+        "description": "Control theory, robotics, real-world dynamic systems, sensor fusion, autonomous navigation.",
+        "faculty": [
+          {
+            "name": "Hal S. Tharp",
+            "title": "Associate Professor",
+            "interests": ["Control systems", "Flexible structures", "Engineering education"],
+            "email": "tharp@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/hal-s-tharp"
+          },
+          {
+            "name": "Wolfgang Fink",
+            "title": "Associate Professor",
+            "interests": ["Autonomous robotics", "Vision systems", "Brain-machine interfaces"],
+            "email": "wfink@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/wolfgang-fink",
+            "projects": ["Autonomous exploration robots", "Vision prostheses"]
+          },
+          {
+            "name": "Ehsan Azimi",
+            "title": "Assistant Professor",
+            "interests": ["Medical robotics", "Augmented reality", "Control interfaces"],
+            "email": "eazimi@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Surgical Robotics AI",
+            "description": "Using simulation + autonomy for surgical system training and control.",
+            "lead_faculty": ["Jerzy W. Rozenblit", "Wolfgang Fink"]
+          }
+        ]
+      },
+      {
+        "id": "biomedical_tech",
+        "name": "Biomedical Technologies",
+        "description": "Biomedical sensing, digital-health devices, VLSI for health, AI on biomedical data.",
+        "faculty": [
+          {
+            "name": "Janet Meiling Roveda",
+            "title": "Professor",
+            "interests": ["Biomedical VLSI", "Wearable health systems", "Data-centric health"],
+            "email": "meilingw@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/janet-meiling-roveda"
+          },
+          {
+            "name": "Wolfgang Fink",
+            "title": "Associate Professor",
+            "interests": ["Biomedical vision systems", "Brain-machine interfacing", "Sensor design"],
+            "email": "wfink@arizona.edu"
+          },
+          {
+            "name": "Jerzy W. Rozenblit",
+            "title": "University Distinguished Professor",
+            "interests": ["System simulation", "Surgical training", "System modeling"],
+            "email": "jerzy.rozenblit@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/jerzy-w-rozenblit",
+            "projects": ["Model-based simulation of life-critical healthcare systems"]
+          },
+          {
+            "name": "Eungjoo Lee",
+            "title": "Assistant Professor",
+            "interests": ["Medical image analysis", "Embedded vision for health"],
+            "email": "eungjoolee@arizona.edu"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Smart Home Health Monitoring",
+            "description": "Wearable + in-house sensor systems to monitor chronic conditions.",
+            "lead_faculty": ["Janet Meiling Roveda"]
+          },
+          {
+            "title": "Surgical Simulation for Training",
+            "description": "Simulated environments for minimally invasive surgery training.",
+            "lead_faculty": ["Jerzy W. Rozenblit"]
+          }
+        ]
+      },
+      {
+        "id": "circuits_vlsi",
+        "name": "Circuits, Microelectronics & VLSI",
+        "description": "On-chip architectures, network-on-chip, hardware security, ML hardware.",
+        "faculty": [
+          {
+            "name": "Danella Zhao",
+            "title": "Associate Professor",
+            "interests": ["Many-core computing", "Network-on-Chip", "Hardware security", "ML on chip"],
+            "email": "danellazhao@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/danella-zhao"
+          },
+          {
+            "name": "Soheil Salehi",
+            "title": "Assistant Professor",
+            "interests": ["AI hardware", "Neuromorphic design", "IoT security"],
+            "email": "ssalehi@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/soheil-salehi"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Autonomic Many-Core Architectures",
+            "description": "Self-optimizing many-core systems with on-chip security.",
+            "lead_faculty": ["Danella Zhao"]
+          },
+          {
+            "title": "Neuromorphic Security Hardware",
+            "description": "Neuromorphic circuits that are secure and efficient for edge AI.",
+            "lead_faculty": ["Soheil Salehi"]
+          }
+        ]
+      },
+      {
+        "id": "comm_coding_info",
+        "name": "Communications, Coding & Information Theory",
+        "description": "Coding theory, data compression, communications, data storage.",
+        "faculty": [
+          {
+            "name": "Michael W. Marcellin",
+            "title": "Professor",
+            "interests": ["Digital communication systems", "Data compression", "Signal processing"],
+            "email": "mwm@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/michael-w-marcellin"
+          },
+          {
+            "name": "Bane Vasić",
+            "title": "Professor",
+            "interests": ["Error-correction coding", "Quantum error correction", "Memory systems"],
+            "email": "vasic@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Quantum Error-Correcting Codes",
+            "description": "Design and analysis of codes for quantum systems.",
+            "lead_faculty": ["Bane Vasić"]
+          },
+          {
+            "title": "Data Compression for High-throughput Systems",
+            "description": "Developing compression algorithms for storage and communications.",
+            "lead_faculty": ["Michael W. Marcellin"]
+          }
+        ]
+      },
+      {
+        "id": "comp_arch_cloud",
+        "name": "Computer Architecture & Cloud / Distributed Computing",
+        "description": "Cloud-native architectures, system self-management, static code analysis, technical-debt reduction.",
+        "faculty": [
+          {
+            "name": "Tomas Černý",
+            "title": "Associate Professor",
+            "interests": ["Software architecture", "Static code analysis", "Technical debt", "Cloud systems"],
+            "email": "tcerny@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/tomas-cerny"
+          },
+          {
+            "name": "Ali Akoglu",
+            "title": "Professor",
+            "interests": ["Adaptive hardware", "Self-managing systems", "Parallel computing"],
+            "email": "akoglu@arizona.edu"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Self-Managing Cloud Systems",
+            "description": "Autonomic resource management across system layers of cloud and SoC.",
+            "lead_faculty": ["Ali Akoglu"]
+          },
+          {
+            "title": "Code-Clone Analysis & Architecture Evolution",
+            "description": "Using static analysis to manage technical debt in cloud-native systems.",
+            "lead_faculty": ["Tomas Černý"]
+          }
+        ]
+      },
+      {
+        "id": "optics_photonics",
+        "name": "Optics, Photonics & Terahertz Devices / Systems",
+        "description": "Imaging, computational optics, target recognition, IR/RF systems.",
+        "faculty": [
+          {
+            "name": "Abhijit Mahalanobis",
+            "title": "Associate Professor",
+            "interests": ["Computational imaging", "Pattern recognition", "Infrared/RF target recognition"],
+            "email": "amahalan@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/abhijit-mahalanobis"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Infrared Target Recognition",
+            "description": "Pattern recognition algorithms for IR / RF imagery.",
+            "lead_faculty": ["Abhijit Mahalanobis"]
+          }
+        ]
+      },
+      {
+        "id": "quantum_info",
+        "name": "Quantum Information Science & Engineering",
+        "description": "Quantum networks, quantum computing architectures, error correction.",
+        "faculty": [
+          {
+            "name": "Shelbi Jenkins",
+            "title": "Assistant Professor",
+            "interests": ["Quantum networking", "Photonics", "Quantum modeling"],
+            "email": "shelbijenkins@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/shelbi-jenkins"
+          },
+          {
+            "name": "Narayanan Rengaswamy",
+            "title": "Assistant Professor",
+            "interests": ["Quantum error correction", "Quantum communications", "Signal processing"],
+            "email": "narayananr@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/narayanan-rengaswamy"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Quantum Network Architecture",
+            "description": "Design of scalable quantum network protocols and devices.",
+            "lead_faculty": ["Shelbi Jenkins"]
+          },
+          {
+            "title": "Quantum Error Correction Codes",
+            "description": "Algorithms for error correction in quantum information systems.",
+            "lead_faculty": ["Narayanan Rengaswamy"]
+          }
+        ]
+      },
+      {
+        "id": "sig_img_vid_proc",
+        "name": "Signal, Image & Video Processing",
+        "description": "Classical & quantum signal processing, image analytics, video analysis, computer vision.",
+        "faculty": [
+          {
+            "name": "Narayanan Rengaswamy",
+            "title": "Assistant Professor",
+            "interests": ["Quantum error correction", "Signal processing", "Quantum communications"],
+            "email": "narayananr@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/narayanan-rengaswamy"
+          },
+          {
+            "name": "Jeffrey J. Rodriguez",
+            "title": "Associate Professor",
+            "interests": ["Automated image/video analysis", "Signal & video processing"],
+            "email": "jjrodrig@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Video Analytics for Health / Security",
+            "description": "Using signal/video processing to analyze streaming video for application in health or security.",
+            "lead_faculty": ["Jeffrey J. Rodriguez"]
+          },
+          {
+            "title": "Quantum Signal Correction",
+            "description": "Applying quantum error correction to signal and communication systems.",
+            "lead_faculty": ["Narayanan Rengaswamy"]
+          }
+        ]
+      },
+      {
+        "id": "software_embedded",
+        "name": "Software Engineering & Embedded Systems",
+        "description": "Embedded robotics, software architecture, edge systems, formal methods, performance testing.",
+        "faculty": [
+          {
+            "name": "Michael M. Marefat",
+            "title": "Associate Professor",
+            "interests": ["Robotics", "Computer vision", "Embedded learning"],
+            "email": "marefat@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Sen He",
+            "title": "Assistant Professor",
+            "interests": ["Edge software", "Performance testing", "Cloud/edge vision"],
+            "email": "mailto:senhe@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/sen-he"
+          },
+          {
+            "name": "Tomas Černý",
+            "title": "Associate Professor",
+            "interests": ["System architecture", "Static analysis", "Technical debt"],
+            "email": "tcerny@arizona.edu"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "Edge Vision Robotics",
+            "description": "Embedded vision + ML in robots for real-time perception and autonomy.",
+            "lead_faculty": ["Michael M. Marefat"]
+          },
+          {
+            "title": "Performance Testing of Edge Applications",
+            "description": "Testing reliability and latency of AI/ML systems on cloud/edge devices.",
+            "lead_faculty": ["Sen He"]
+          }
+        ]
+      },
+      {
+        "id": "wireless_security",
+        "name": "Wireless Networking, Security & Systems",
+        "description": "Wireless networks, 6G, security/privacy, cross-layer optimization, cyber-physical resilience.",
+        "faculty": [
+          {
+            "name": "Ming “Fred” Li",
+            "title": "Professor",
+            "interests": ["Physical-layer security", "Wireless network security", "Cyber-physical systems"],
+            "email": "lim@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Ravi Tandon",
+            "title": "Associate Professor",
+            "interests": ["Distributed ML", "Information theory", "Privacy"],
+            "email": "tandonr@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/ravi-tandon"
+          },
+          {
+            "name": "Marwan Krunz",
+            "title": "Regents Professor",
+            "interests": ["Next-gen networks", "Cognitive radios", "Network optimization"],
+            "email": "krunz@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          },
+          {
+            "name": "Michael W. Wu",
+            "title": "Professor / Department Head",
+            "interests": ["Secure ML", "Network security", "Wireless privacy"],
+            "email": "mhwu@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/faculty/hongyi-michael-wu"
+          },
+          {
+            "name": "Loukas Lazos",
+            "title": "Professor",
+            "interests": ["Network security", "Optimization algorithms", "Wireless communications"],
+            "email": "llazos@arizona.edu",
+            "profile": "https://ece.engineering.arizona.edu/faculty-staff/core-faculty"
+          }
+        ],
+        "example_projects": [
+          {
+            "title": "6G Secure Networks (WISPER Center)",
+            "description": "Research on next-gen wireless (6G) security and architecture.",
+            "lead_faculty": ["Marwan Krunz", "Michael W. Wu"]
+          },
+          {
+            "title": "Secure Distributed ML Over Networks",
+            "description": "Privacy-preserving machine learning across wireless systems.",
+            "lead_faculty": ["Ravi Tandon"]
+          },
+          {
+            "title": "Physical-layer Security Protocols",
+            "description": "Designing secure wireless protocols at the hardware / physical layer.",
+            "lead_faculty": ["Ming Li"]
+          }
+        ]
+      }
+    ],
+    "centers": [
+      {
+        "name": "WISPER – Wireless Innovation towards Secure, Pervasive, Efficient, and Resilient Next-G Networks",
+        "lead_faculty": ["Marwan Krunz", "Michael W. Wu"],
+        "description": "Center for 6G / next-gen wireless research on security, architectures, and AI for wireless.",
+        "link": "https://ece.engineering.arizona.edu/news/wisper-center-aims-pioneer-6g-wireless-communication-research"
+      },
+      {
+        "name": "Center to Stream Healthcare In Place (C2SHIP)",
+        "lead_faculty": ["Janet Meiling Roveda"],
+        "description": "Develops in-place health monitoring, wearable sensors, and AI health-systems.",
+        "link": "https://ece.engineering.arizona.edu/faculty-staff/faculty/janet-meiling-roveda"
+      },
+      {
+        "name": "Cloud & Autonomic Computing Center (CAC)",
+        "lead_faculty": ["Ali Akoglu"],
+        "description": "Research on self-managed cloud / SoC systems, adaptive architectures.",
+        "link": "https://ece.engineering.arizona.edu/faculty-staff/faculty/ali-akoglu"
+      },
+      {
+        "name": "Center for Quantum Networks (CQN)",
+        "lead_faculty": ["Shelbi Jenkins", "Narayanan Rengaswamy"],
+        "description": "Research center focused on quantum network protocols, devices, and architecture.",
+        "link": "https://ece.engineering.arizona.edu/faculty-staff/faculty/shelbi-jenkins"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "University of Arizona ECE website & Graduate Program PDF",
+    "last_updated": "2025-11-17"
+  }
+}
