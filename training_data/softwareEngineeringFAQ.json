@@ -1,0 +1,79 @@
+[
+  {
+    "question": "What foundational writing courses are required for the BS in Software Engineering?",
+    "answer": "Students must complete two freshman composition courses: ENGL 101 (or ENGL 107/109H) and ENGL 102 (or ENGL 108/109H). These courses may be taken in fall, spring, or summer."
+  },
+  {
+    "question": "What general education courses must Software Engineering majors complete?",
+    "answer": "Students complete the Connections general education program, including UNIV 101, Exploring Perspectives in Artist, Humanist, and Social Scientist categories, three Building Connections courses, and the UNIV 301 general education portfolio."
+  },
+  {
+    "question": "Which science courses are required for Software Engineering majors?",
+    "answer": "Required science courses include General Chemistry I (CHEM 151 or 161/163), an additional science course such as CHEM 152, MSE 110, or MCB 181R/L, Introductory Mechanics (PHYS 141 or 161H), and Introductory Electricity and Magnetism (PHYS 241 or 261H)."
+  },
+  {
+    "question": "What math courses are required for Software Engineering majors?",
+    "answer": "Required math courses include Calculus I (MATH 122A/B or 125), Calculus II (MATH 129), Discrete Math for Computer Science (MATH 243), and one additional math, physics, or data science elective such as MATH 223, 254, or 313."
+  },
+  {
+    "question": "What lower-division engineering courses do Software Engineering students take?",
+    "answer": "Lower-division requirements include ENGR 102 (Introduction to Engineering), SFWE 101 (Introduction to Software Engineering), SFWE 201 (Sophomore Colloquium), ECE 101 (Computer Programming I), ECE 201 (Computer Programming II), ECE 274A (Digital Logic), and SIE 277 (Object-Oriented Modeling and Design). All must be completed with a grade of C or higher."
+  },
+  {
+    "question": "Which upper-division Software Engineering courses require Advanced Standing?",
+    "answer": "Upper-division engineering courses requiring Advanced Standing include SFWE 301, SFWE 302/405, SFWE 401, SFWE 402, SFWE 403, SFWE 491, SIE 305, ECE 311, ECE 369A, CSC 355 or 345, and the senior design sequence ENGR 498A and 498B."
+  },
+  {
+    "question": "What is the prerequisite structure for the major upper-division SFWE courses?",
+    "answer": "SFWE 301 requires ECE 201; SFWE 302/405 requires SFWE 301; SFWE 401 and SFWE 402 require ECE 201; SFWE 403 requires SFWE 301; ENGR 498A requires SIE 277, SFWE 301, and at least 90 earned units along with SFWE 403 as a corequisite."
+  },
+  {
+    "question": "What is required to enter the senior capstone courses?",
+    "answer": "ENGR 498A requires completion of SIE 277, completion of SFWE 301, senior standing with at least 90 units, and coregistration in SFWE 403. ENGR 498B requires successful completion of ENGR 498A."
+  },
+  {
+    "question": "How many technical electives are required for Software Engineering majors?",
+    "answer": "Students must complete five technical electives, each 3 units, chosen from advisor-approved upper-division technical courses related to software engineering, computer science, systems engineering, or computer engineering."
+  },
+  {
+    "question": "Can Software Engineering students substitute courses for required classes?",
+    "answer": "No. Substitutions are not permitted. Students must take the specific courses listed in the program requirements."
+  },
+  {
+    "question": "What is an example of a Systems & Industrial Engineering technical elective for Software Engineering majors?",
+    "answer": "Examples include SIE 472 (INSuRE), SIE 471 (Systems Cyber Security Engineering), SIE 458 (Model Based Systems Engineering), and SIE 477 (Introduction to Biomedical Informatics)."
+  },
+  {
+    "question": "What are the prerequisites for SIE 471 Systems Cyber Security Engineering?",
+    "answer": "SIE 471 requires no specific prerequisite course but does require Advanced Standing in the College of Engineering."
+  },
+  {
+    "question": "What is the prerequisite for SIE 472 INSuRE?",
+    "answer": "SIE 472 requires completion of SIE 471 and Advanced Standing."
+  },
+  {
+    "question": "What is the prerequisite for SIE 477 Introduction to Biomedical Informatics?",
+    "answer": "SIE 477 requires completion of ECE 175 or an equivalent programming foundation course, along with Advanced Standing."
+  },
+  {
+    "question": "Which technical electives support the AI track?",
+    "answer": "Courses in the technical elective list marked in the AI track typically emphasize intelligent systems, data processing, or applied machine learning within approved engineering offerings."
+  },
+  {
+    "question": "Which technical electives support the Cyber track?",
+    "answer": "Courses supporting the Cyber track include SIE 471 and SIE 472, as they focus on cyber security engineering and collaborative cyber research projects."
+  },
+  {
+    "question": "Which technical electives support the Embedded Systems track?",
+    "answer": "Courses tagged in the Embedded track include those with hardware-software integration focus, such as SIE 458, depending on advising approval."
+  },
+  {
+    "question": "Which technical electives support the Data track?",
+    "answer": "Courses supporting the Data track include technical electives that apply informatics, analytics, or data-driven system modeling such as SIE 477."
+  },
+  {
+    "question": "How often are most Software Engineering courses offered?",
+    "answer": "Lower-division courses are offered both fall and spring, while many upper-division SFWE courses are offered only once a year: SFWE 301 and SFWE 403 in fall, SFWE 302/405, SFWE 401, and SFWE 402 in spring."
+  }
+]
+

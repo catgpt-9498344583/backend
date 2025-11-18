@@ -1,0 +1,3280 @@
+{
+  "metadata": {
+    "project": "University of Arizona Software Engineering Chatbot",
+    "version": "1.0",
+    "created_on": "2025-10-13",
+    "sources": {
+      "degree_guide_docx": "Main SFWE Degree Planning Guide.docx",
+      "tech_electives_xlsx": "SFWE Tech Electives 2024 100824.xlsx",
+      "catalog_pages": [
+        "SFWE503"
+      ],
+      "ece_pages": [
+        "Focus Areas",
+        "Research Centers"
+      ]
+    }
+  },
+  "degree_plan": {
+    "u_of_a_foundation": [
+      {
+        "course": "ENGL 101",
+        "units": 3,
+        "offerings": "F/SP/SU"
+      },
+      {
+        "course": "ENGL 102",
+        "units": 3,
+        "offerings": "F/SP/SU"
+      }
+    ],
+    "general_education_connections": [
+      {
+        "course": "UNIV 101",
+        "units": 1
+      },
+      {
+        "course": "UNIV 301",
+        "units": 1
+      },
+      {
+        "explorations": [
+          "Artist",
+          "Humanist",
+          "Social Scientist"
+        ],
+        "units_each": 3
+      },
+      {
+        "building_connections_count": 3,
+        "units_each": 3
+      }
+    ],
+    "core_science_math": [
+      {
+        "course": [
+          "CHEM 151 or CHEM 161/163"
+        ],
+        "units": 4
+      },
+      {
+        "additional_science": [
+          "CHEM 152, MSE 110 or MCB 181R&L"
+        ],
+        "units": 4
+      },
+      {
+        "PHYS 141": {
+          "units": 4
+        }
+      },
+      {
+        "PHYS 241": {
+          "units": 4
+        }
+      },
+      {
+        "MATH 125 or MATH 122A/B": {
+          "units": "3/5"
+        }
+      },
+      {
+        "MATH 129": {
+          "units": 3
+        }
+      },
+      {
+        "MATH 243": {
+          "units": 3
+        }
+      },
+      {
+        "MATH/PHYS/DATA_Elective": [
+          "MATH 223, 254 or 313"
+        ],
+        "units": 3
+      }
+    ],
+    "lower_division_engineering": [
+      {
+        "ENGR 102": {
+          "units": 3
+        }
+      },
+      {
+        "SFWE 101": {
+          "units": 3,
+          "co_req": "MATH 122B or 125"
+        }
+      },
+      {
+        "SFWE 201": {
+          "units": 1,
+          "prereq": "SFWE 101 or ECE 101"
+        }
+      },
+      {
+        "ECE 101": {
+          "units": 4
+        }
+      },
+      {
+        "ECE 201": {
+          "units": 3
+        }
+      },
+      {
+        "ECE 274A": {
+          "units": 4
+        }
+      },
+      {
+        "SIE 277": {
+          "units": 3
+        }
+      }
+    ],
+    "upper_division_engineering": [
+      {
+        "SFWE 301": {
+          "units": 3,
+          "prereq": "ECE 201 or consent"
+        }
+      },
+      {
+        "SFWE 302/405": {
+          "units": 3,
+          "prereq": "SFWE 301"
+        }
+      },
+      {
+        "SFWE 401": {
+          "units": 3,
+          "prereq": "ECE 201"
+        }
+      },
+      {
+        "SFWE 402": {
+          "units": 4,
+          "prereq": "ECE 201"
+        }
+      },
+      {
+        "SFWE 403": {
+          "units": 3,
+          "prereq": "SFWE 301"
+        }
+      },
+      {
+        "SFWE 491": {
+          "units": 1
+        }
+      },
+      {
+        "SIE 305": {
+          "units": 3
+        }
+      },
+      {
+        "ECE 311": {
+          "units": 1
+        }
+      },
+      {
+        "ECE 369a": {
+          "units": 4
+        }
+      },
+      {
+        "CSC 355": {
+          "units": 3
+        }
+      }
+    ],
+    "senior_design": [
+      {
+        "ENGR 498A": {
+          "units": 3,
+          "prereq": "SIE 277 & SFWE 301, 90+ units",
+          "co_req": "SFWE 403"
+        }
+      },
+      {
+        "ENGR 498B": {
+          "units": 3,
+          "prereq": "ENGR 498A"
+        }
+      }
+    ],
+    "SFWE_technical_electives_count": 5,
+    "notes": "All upper/lower division engineering courses must be completed with a C or higher. No substitutions accepted as per guide."
+  },
+  "technical_electives": {
+    "Main Campus": [
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Title (Choose 4)",
+        "Course": "Mobile",
+        "Units": "Units",
+        "Pre-Requisites": "Pre-Requisites",
+        "Enrollment Restrictions": "Enrollment Restrictions",
+        "Offering": "Main Offering",
+        "AMP?": "AMP?",
+        "See \"Tech Elective Tracks\" Tab": "AI",
+        "Cloud": "Algorithms",
+        "Cyber": "Cloud"
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Introduction to Biomedical Informatics",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 175",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "INSuRE",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 471",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Systems Cyber Security Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Model Based Systems Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 454A",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "The Systems Engineering Process",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Fund of Data Science for Engineers",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305 or equivalent",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Simulation Modeling & Analysis",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Engineering Stats",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Technical Sales & Marketing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Embedded Computer Systems",
+        "Course": null,
+        "Units": 4,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Cloud Native (temporarily SIE 496)",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SFWE 302",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Principles of Cloud Computing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 369A or CSC 252",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Directed Research",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Department Consent",
+        "Offering": "F/SP/SU",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Software for Industrial Control Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Computational Linguistics",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Advanced Game Development",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": "Coming soon",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Artificial Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "MATH 243 or consent of instructor",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Data Warehousing and Analytics in the Cloud",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Algorithms for Games",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": "Coming soon",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Intro to Machine Learning",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "(ESOC 214 or ISTA 116 or DATA 363) and (ISTA 130 or CSC 110)",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Introduction to Web Design & Development",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "None",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Data Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 175 or ISTA 130 or CSC 110",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Data Mining and Discovery",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ISTA 116, ESOC 214, or equivalent; or consent of instructor",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": " Applied Data Visualization",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ISTA 116, ESOC 214, or equivalent; or consent of instructor",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Game Artificial Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ISTA 350 or ECE 373 or CSC 210 or instructor consent.",
+        "Enrollment Restrictions": null,
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Introduction to Game Development with Unity",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 175 or ISTA 130 or CSC 110",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Disruptive Technologies",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Tech Ventures",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "Recommended: ENTR 296",
+        "Enrollment Restrictions": null,
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Artificial Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 373 or SIE 277",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Fund of Computer Networks",
+        "Course": "X",
+        "Units": 3,
+        "Pre-Requisites": "ECE 275 & ECE 310",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Computer Aided Logic",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 274A & ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Fund Info Theory & Ntwk Security",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Knowledge System Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Computer Architecture & Design",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 369A",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Digital Signal Processing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "Majors; ECE 340A",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Web Development & the IoT",
+        "Course": "X",
+        "Units": 3,
+        "Pre-Requisites": "ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Microprocessor Organization",
+        "Course": null,
+        "Units": 4,
+        "Pre-Requisites": "ECE 274A & (ECE 207 or 220) & *ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Computational Techniques",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "Majors; MATH 223, MATH 254, PHYS 143, PHYS 241 & ECE 175",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Applications of Engineering Math",
+        "Course": null,
+        "Units": 4,
+        "Pre-Requisites": "MATH 254 & (ECE 207 or 220) & ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Cyber Threat Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "See Advisor",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Active Cyber Defense",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "See Advisor",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Introduction to Cyber Operations",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "See Advisor",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Comparitive Programming Languages",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 210",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Intro to Computer Vision",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, CSC 335, CSC 345, CSC 352 & (MATH 215 or MATH 313)",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Database Design",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 335 & CSC 345",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Compilers and Systems Software",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, 345, 352. CSC 372 recommended",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Prin Operating Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, CSC 345 & CSC 352",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Data Visualization",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 335 & CSC 345",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Software Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, CSC 335, CSC 345, and CSC 352.",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Computer Graphics",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, 335, 345, 352, and (MATH 215 or 313)",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Comparitive Programming Languages",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 210",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Systems Programming and Unix",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, 335, 345, 352, and (MATH 215 or 313)",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Cloud Computing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CSC 120",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "Web Programming",
+        "Course": "X",
+        "Units": 3,
+        "Pre-Requisites": "ECE 175 or ISTA 130 or CSC 110",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": null,
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "*SFWE Major allows for double dipping, but requires at least 1 unique technical elective to the major.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "MAIN CAMPUS: TUCSON | Pre-requisites do NOT count as electives": "**Semester offerings are subject to change regularly.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      }
+    ],
+    "Online Campus": [
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Title (Choose 4)",
+        "Course": "Mobile",
+        "Units": "Units",
+        "Pre-Requisites": "Pre-Requisites",
+        "Enrollment Restrictions": "Enrollment Restrictions",
+        "Offering": "Online Offering",
+        "AMP?": "AMP?",
+        "See \"Tech Elective Tracks\" Tab": "AI",
+        "Cloud": "Algorithms",
+        "Cyber": "Cloud"
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "INSuRE",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 471",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Cloud Native (temporarily SIE 496)",
+        "Course": null,
+        "Units": "3",
+        "Pre-Requisites": "SFWE 302",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Principles of Cloud Computing",
+        "Course": null,
+        "Units": "3",
+        "Pre-Requisites": "ECE 369A or CSC 252",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Software for Industrial Control Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Directed Research",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Department Consent",
+        "Offering": "F/SP/SU",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Data Warehousing and Analytics in the Cloud",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Web Design & Development",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "None",
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Data Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 175 or ISTA 130 or CSC 110",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Data Mining and Discovery",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ISTA 116, ESOC 214, or equivalent; or consent of instructor",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": " Applied Data Visualization",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ISTA 116, ESOC 214, or equivalent; or consent of instructor",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Game Development with Unity",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 175 or ISTA 130 or CSC 110",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Disruptive Technologies",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Digital Signal Processing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "Majors; ECE 340A",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Microprocessor Organization",
+        "Course": null,
+        "Units": 4,
+        "Pre-Requisites": "ECE 274A & (ECE 207 or 220) & *ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Applications of Engineering Math",
+        "Course": null,
+        "Units": 4,
+        "Pre-Requisites": "MATH 254 & (ECE 207 or 220) & ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Cyber Warfare",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CYBV 326 and CYBV 385 or consent of instructor.",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Advanced Analytics for Security Operations",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Violent Python",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Malware Threats & Analysis",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Cyber Threat Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Active Cyber Defense",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Cyber Operations",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Secrutiy Scripting",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Windows Security Essentials",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Linux Security Essentials",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Artificial Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CSC 355 or 345",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Comparitive Programming Languages",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 210",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Database Design",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 335 & CSC 345",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP/SU",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "Prin Operating Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, CSC 345 & CSC 352",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "AMP?": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": null,
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "*SFWE Major allows for double dipping, but requires at least 1 unique technical elective to the major.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "ONLINE CAMPUS | Pre-requisites do NOT count as electives": "**Semester offerings are subject to change regularly.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "AMP?": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Cloud": null,
+        "Cyber": null
+      }
+    ],
+    "Yuma Campus": [
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Title (Choose 4)",
+        "Course": "Mobile",
+        "Units": "Units",
+        "Pre-Requisites": "Pre-Requisites",
+        "Enrollment Restrictions": "Enrollment Restrictions",
+        "Offering": "Yuma Offering",
+        "See \"Tech Elective Tracks\" Tab": "AI",
+        "Algorithms": "Algorithms",
+        "Cloud": "Cloud",
+        "Cyber": "Cyber"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "INSuRE",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 471",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Systems Cyber Security Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Model Based Systems Engineering",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 454A",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "The Systems Engineering Process",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Fund of Data Science for Engineers",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305 or equivalent",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Simulation Modeling & Analysis",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP/SU",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Algorithms": "X",
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Engineering Stats",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SIE 305",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Technical Sales & Marketing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Cloud Native (temporarily SIE 496)",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "SFWE 302",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Principles of Cloud Computing",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 369A or CSC 252",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "Coming soon",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": "X",
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Software for Industrial Control Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "ECE 275",
+        "Enrollment Restrictions": "Adv. Standing",
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Directed Research",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": "Department Consent",
+        "Offering": "F/SP/SU",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Disruptive Technologies",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Cyber Warfare",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CYBV 326 and CYBV 385 or consent of instructor.",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Advanced Analytics for Security Operations",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Violent Python",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Malware Threats & Analysis",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Cyber Threat Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Active Cyber Defense",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Cyber Operations",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Introduction to Secrutiy Scripting",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F/SP/SU",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Windows Security Essentials",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Linux Security Essentials",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "None",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": "X"
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Artificial Intelligence",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CSC 355 or 345",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Comparitive Programming Languages",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 210",
+        "Enrollment Restrictions": null,
+        "Offering": "F",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Database Design",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 335 & CSC 345",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "Prin Operating Systems",
+        "Course": null,
+        "Units": 3,
+        "Pre-Requisites": "CS Major; CSC 252, CSC 345 & CSC 352",
+        "Enrollment Restrictions": "CS Majors",
+        "Offering": "SP",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": null,
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "*SFWE Major allows for double dipping, but requires at least 1 unique technical elective to the major.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      },
+      {
+        "YUMA CAMPUS | Pre-requisites do NOT count as electives": "**Semester offerings are subject to change regularly.",
+        "Course": null,
+        "Units": null,
+        "Pre-Requisites": null,
+        "Enrollment Restrictions": null,
+        "Offering": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Algorithms": null,
+        "Cloud": null,
+        "Cyber": null
+      }
+    ],
+    "Master": [
+      {
+        "MASTER LIST (All Campuses)": "Title (Choose 4)",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": "Units",
+        "Unnamed: 3": "Pre-Requisites",
+        "Unnamed: 4": "Enrollment Restrictions",
+        "Unnamed: 5": "Main Offering",
+        "Unnamed: 6": "Online Offering",
+        "Unnamed: 7": "Yuma Offering",
+        "Unnamed: 8": "AMP?",
+        "See \"Tech Elective Tracks\" Tab": "AI",
+        "Unnamed: 10": "Algorithms",
+        "Unnamed: 11": "Cloud",
+        "Unnamed: 12": "Cyber",
+        "Unnamed: 13": "Data",
+        "Unnamed: 14": "Embedded",
+        "Unnamed: 15": "Mobile"
+      },
+      {
+        "MASTER LIST (All Campuses)": "Introduction to Biomedical Informatics",
+        "Unnamed: 1": "SIE 477",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 175",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Designing Cyber Resilient Systems",
+        "Unnamed: 1": "SIE 473",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 471",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "On hold",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "INSuRE",
+        "Unnamed: 1": "SIE 472",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 471",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "SP",
+        "Unnamed: 7": "SP",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Systems Cyber Security Engineering",
+        "Unnamed: 1": "SIE 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Model Based Systems Engineering",
+        "Unnamed: 1": "SIE 458",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 454A",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "SP",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "The Systems Engineering Process",
+        "Unnamed: 1": "SIE 454A",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Fund of Data Science for Engineers",
+        "Unnamed: 1": "SIE 433",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 305 or equivalent",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Simulation Modeling & Analysis",
+        "Unnamed: 1": "SIE 431",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 305",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F/SP/SU",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": "X",
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Engineering Stats",
+        "Unnamed: 1": "SIE 430",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "SIE 305",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Technical Sales & Marketing",
+        "Unnamed: 1": "SIE 415",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Embedded Computer Systems",
+        "Unnamed: 1": "SIE 370",
+        "Unnamed: 2": 4,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Directed Research",
+        "Unnamed: 1": "SFWE 492",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Department Consent",
+        "Unnamed: 5": "F/SP/SU",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "F/SP/SU",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Cloud Native (temporarily SIE 496)",
+        "Unnamed: 1": "SFWE 410",
+        "Unnamed: 2": "3",
+        "Unnamed: 3": "SFWE 302",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "Coming soon",
+        "Unnamed: 6": "Coming soon",
+        "Unnamed: 7": "Coming soon",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": "X",
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Principles of Cloud Computing",
+        "Unnamed: 1": "SFWE 409",
+        "Unnamed: 2": "3",
+        "Unnamed: 3": "ECE 369A or CSC 252",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "Coming soon",
+        "Unnamed: 6": "Coming soon",
+        "Unnamed: 7": "Coming soon",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": "X",
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Software for Industrial Control Systems",
+        "Unnamed: 1": "SFWE 411",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 275",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Computational Linguistics",
+        "Unnamed: 1": "LING 438",
+        "Unnamed: 2": null,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Advanced Game Development",
+        "Unnamed: 1": "ISTA 452",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": null,
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Coming soon",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Artificial Intelligence",
+        "Unnamed: 1": "ISTA 450",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "MATH 243 or consent of instructor",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Data Warehousing and Analytics in the Cloud",
+        "Unnamed: 1": "ISTA 431",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP/SU",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Algorithms for Games",
+        "Unnamed: 1": "ISTA 425",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": null,
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Coming soon",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": "X",
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Intro to Machine Learning",
+        "Unnamed: 1": "ISTA 421",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "(ESOC 214 or ISTA 116 or DATA 363) and (ISTA 130 or CSC 110)",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Introduction to Web Design & Development",
+        "Unnamed: 1": "ISTA 329",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "None",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Data Engineering",
+        "Unnamed: 1": "ISTA 322",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 175 or ISTA 130 or CSC 110",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Data Mining and Discovery",
+        "Unnamed: 1": "ISTA 321",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ISTA 116, ESOC 214, or equivalent; or consent of instructor",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP/SU",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Game Artificial Intelligence",
+        "Unnamed: 1": "GAME 426",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ISTA 350 or ECE 373 or CSC 210 or instructor consent.",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Introduction to Game Development with Unity",
+        "Unnamed: 1": "GAME 351",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 175 or ISTA 130 or CSC 110",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP/SU",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Disruptive Technologies",
+        "Unnamed: 1": "ESOC 318",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP/SU",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Tech Ventures",
+        "Unnamed: 1": "ENTR 400 (387)",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Recommended: ENTR 296",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Artificial Intelligence",
+        "Unnamed: 1": "ECE 479",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 373 or SIE 277",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": "X",
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Fund of Computer Networks",
+        "Unnamed: 1": "ECE 478",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 275 & ECE 310",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": "X"
+      },
+      {
+        "MASTER LIST (All Campuses)": "Computer Aided Logic",
+        "Unnamed: 1": "ECE 474A",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 274A & ECE 275",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Fund Info Theory & Ntwk Security",
+        "Unnamed: 1": "ECE 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Knowledge System Engineering",
+        "Unnamed: 1": "ECE 466",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Computer Architecture & Design",
+        "Unnamed: 1": "ECE 462",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 369A",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Digital Signal Processing",
+        "Unnamed: 1": "ECE 429",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Majors; ECE 340A",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": "X",
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Web Development & the IoT",
+        "Unnamed: 1": "ECE 413",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 275",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "Yes",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": "X"
+      },
+      {
+        "MASTER LIST (All Campuses)": "Microprocessor Organization",
+        "Unnamed: 1": "ECE 372A",
+        "Unnamed: 2": 4,
+        "Unnamed: 3": "ECE 274A & (ECE 207 or 220) & *ECE 275",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "SP",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Computational Techniques",
+        "Unnamed: 1": "ECE 330B",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Majors; MATH 223, MATH 254, PHYS 143, PHYS 241 & ECE 175",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": "X",
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Applications of Engineering Math",
+        "Unnamed: 1": "ECE 310*",
+        "Unnamed: 2": 4,
+        "Unnamed: 3": "MATH 254 & (ECE 207 or 220) & ECE 275",
+        "Unnamed: 4": "Adv. Standing",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Cyber Warfare",
+        "Unnamed: 1": "CYBV 480",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CYBV 326 and CYBV 385 or consent of instructor.",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Advanced Analytics for Security Operations",
+        "Unnamed: 1": "CYBV 474",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Violent Python",
+        "Unnamed: 1": "CYBV 473",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Malware Threats & Analysis",
+        "Unnamed: 1": "CYBV 454",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Cyber Threat Intelligence",
+        "Unnamed: 1": "CYBV 435",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "See Advisor",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "F/SP/SU",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Active Cyber Defense",
+        "Unnamed: 1": "CYBV 400",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "See Advisor",
+        "Unnamed: 6": "F/SP",
+        "Unnamed: 7": "F/SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Introduction to Cyber Operations",
+        "Unnamed: 1": "CYBV 385",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "See Advisor",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "F/SP/SU",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Introduction to Secrutiy Scripting",
+        "Unnamed: 1": "CYBV 312",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F/SP/SU",
+        "Unnamed: 7": "F/SP/SU",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Windows Security Essentials",
+        "Unnamed: 1": "CYBV 303",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Linux Security Essentials",
+        "Unnamed: 1": "CYBV 302",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "None",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": "X",
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Artificial Intelligence",
+        "Unnamed: 1": "CSC(V) 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CSC 355 or 345",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "Not Offered",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Comparitive Programming Languages",
+        "Unnamed: 1": "CSC(V) 372",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 210",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "F",
+        "Unnamed: 7": "F",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Intro to Computer Vision",
+        "Unnamed: 1": "CSC 477",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, CSC 335, CSC 345, CSC 352 & (MATH 215 or MATH 313)",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": "X",
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Database Design",
+        "Unnamed: 1": "CSC 460",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 335 & CSC 345",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "SP/SU",
+        "Unnamed: 7": "SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Compilers and Systems Software",
+        "Unnamed: 1": "CSC 453",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, 345, 352. CSC 372 recommended",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Prin Operating Systems",
+        "Unnamed: 1": "CSC 452",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, CSC 345 & CSC 352",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "SP",
+        "Unnamed: 7": "SP",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": "X",
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Data Visualization",
+        "Unnamed: 1": "CSC 444",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 335 & CSC 345",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Software Engineering",
+        "Unnamed: 1": "CSC 436",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, CSC 335, CSC 345, and CSC 352.",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Computer Graphics",
+        "Unnamed: 1": "CSC 433",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, 335, 345, 352, and (MATH 215 or 313)",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Comparitive Programming Languages",
+        "Unnamed: 1": "CSC 372",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 210",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Systems Programming and Unix",
+        "Unnamed: 1": "CSC 352",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CS Major; CSC 252, 335, 345, 352, and (MATH 215 or 313)",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Cloud Computing",
+        "Unnamed: 1": "CSC 346",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "CSC 120",
+        "Unnamed: 4": "CS Majors",
+        "Unnamed: 5": "F",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": "X",
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "Web Programming",
+        "Unnamed: 1": "CSC 337",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "ECE 175 or ISTA 130 or CSC 110",
+        "Unnamed: 4": null,
+        "Unnamed: 5": "F/SP",
+        "Unnamed: 6": "Not Offered",
+        "Unnamed: 7": "Not Offered",
+        "Unnamed: 8": "No",
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": "X"
+      },
+      {
+        "MASTER LIST (All Campuses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null,
+        "Unnamed: 4": null,
+        "Unnamed: 5": null,
+        "Unnamed: 6": null,
+        "Unnamed: 7": null,
+        "Unnamed: 8": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "*SFWE Major allows for double dipping, but requires at least 1 unique technical elective to the major.",
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null,
+        "Unnamed: 4": null,
+        "Unnamed: 5": null,
+        "Unnamed: 6": null,
+        "Unnamed: 7": null,
+        "Unnamed: 8": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      },
+      {
+        "MASTER LIST (All Campuses)": "**Semester offerings are subject to change regularly.",
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null,
+        "Unnamed: 4": null,
+        "Unnamed: 5": null,
+        "Unnamed: 6": null,
+        "Unnamed: 7": null,
+        "Unnamed: 8": null,
+        "See \"Tech Elective Tracks\" Tab": null,
+        "Unnamed: 10": null,
+        "Unnamed: 11": null,
+        "Unnamed: 12": null,
+        "Unnamed: 13": null,
+        "Unnamed: 14": null,
+        "Unnamed: 15": null
+      }
+    ],
+    "Tech Elective Tracks": [
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Note: You cannot take classes from a campus you are not admitted to. Campus offering is different from modality. See more details of these courses on your specific campus tab at the bottom of Excel.",
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "AI/Machine Learning",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": "Units",
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Fund of Data Science for Engineers",
+        "Unnamed: 1": "SIE 433",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Simulation Modeling & Analysis",
+        "Unnamed: 1": "SIE 431",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Engineering Stats",
+        "Unnamed: 1": "SIE 430",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Game Artificial Intelligence",
+        "Unnamed: 1": "GAME 426",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Artificial Intelligence",
+        "Unnamed: 1": "ECE 479",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Artificial Intelligence",
+        "Unnamed: 1": "CSC(V) 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Intro to Computer Vision",
+        "Unnamed: 1": "CSC 477",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Algorithms",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": null,
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Simulation Modeling & Analysis",
+        "Unnamed: 1": "SIE 431",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main; Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Digital Signal Processing",
+        "Unnamed: 1": "ECE 429",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main; Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Computational Techniques",
+        "Unnamed: 1": "ECE 330B",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Cloud Computing",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": null,
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Cloud Native (temporarily SIE 496)",
+        "Unnamed: 1": "SFWE 410",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Principles of Cloud Computing",
+        "Unnamed: 1": "SFWE 409",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Cybersecurity",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": null,
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "INSuRE",
+        "Unnamed: 1": "SIE 472",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Systems Cyber Security Engineering",
+        "Unnamed: 1": "SIE 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Fund of Computer Networks",
+        "Unnamed: 1": "ECE 478",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Fund Info Theory & Ntwk Security",
+        "Unnamed: 1": "ECE 471",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Cyber Warfare",
+        "Unnamed: 1": "CYBV 480",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Advanced Analytics for Security Operations",
+        "Unnamed: 1": "CYBV 474",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Violent Python",
+        "Unnamed: 1": "CYBV 473",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Malware Threats & Analysis",
+        "Unnamed: 1": "CYBV 454",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Cyber Threat Intelligence",
+        "Unnamed: 1": "CYBV 435",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Active Cyber Defense",
+        "Unnamed: 1": "CYBV 400",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Introduction to Cyber Operations",
+        "Unnamed: 1": "CYBV 385",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Introduction to Secrutiy Scripting",
+        "Unnamed: 1": "CYBV 312",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Windows Security Essentials",
+        "Unnamed: 1": "CYBV 303",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Linux Security Essentials",
+        "Unnamed: 1": "CYBV 302",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Data",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": "Units",
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Fund of Data Science for Engineers",
+        "Unnamed: 1": "SIE 433",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Artificial Intelligence",
+        "Unnamed: 1": "ECE 479",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Introduction to Biomedical Informatics",
+        "Unnamed: 1": "SIE 477",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Technical Sales & Marketing",
+        "Unnamed: 1": "SIE 415",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Data Warehousing and Analytics in the Cloud",
+        "Unnamed: 1": "ISTA 431",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Data Engineering",
+        "Unnamed: 1": "ISTA 322",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Data Mining and Discovery",
+        "Unnamed: 1": "ISTA 321",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": " Applied Data Visualization",
+        "Unnamed: 1": "ISTA 320",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Embedded Systems",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": "Units",
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Digital Signal Processing",
+        "Unnamed: 1": "ECE 429",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Model Based Systems Engineering",
+        "Unnamed: 1": "SIE 458",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "The Systems Engineering Process",
+        "Unnamed: 1": "SIE 454A",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Embedded Computer Systems",
+        "Unnamed: 1": "SIE 370",
+        "Unnamed: 2": 4,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Software for Industrial Control Systems",
+        "Unnamed: 1": "SFWE 411",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Computer Aided Logic",
+        "Unnamed: 1": "ECE 474A",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Computer Architecture & Design",
+        "Unnamed: 1": "ECE 462",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Microprocessor Organization",
+        "Unnamed: 1": "ECE 372A",
+        "Unnamed: 2": 4,
+        "Unnamed: 3": "Main, Online"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Prin Operating Systems",
+        "Unnamed: 1": "CSC 452",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main, Online, Yuma"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Mobile",
+        "Unnamed: 1": "Course",
+        "Unnamed: 2": "Units",
+        "Unnamed: 3": "Campus Offered"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Fund of Computer Networks",
+        "Unnamed: 1": "ECE 478",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Web Development & the IoT",
+        "Unnamed: 1": "ECE 413",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Web Programming",
+        "Unnamed: 1": "CSC 337",
+        "Unnamed: 2": 3,
+        "Unnamed: 3": "Main"
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": null,
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      },
+      {
+        "Technical Elective Tracks (Optional: to be used as a guide for selecting courses)": "Coming Soon: Cloud Computing!",
+        "Unnamed: 1": null,
+        "Unnamed: 2": null,
+        "Unnamed: 3": null
+      }
+    ]
+  },
+  "catalog_courses": [
+    {
+      "title": "Software Project Management",
+      "units": 3,
+      "description": "This course will teach software engineering students how to plan, track and communicate the status of large-scale software projects to a diverse group of stakeholders. Using modern traditional and Agile software development methodologies and tools, and emulating a realistic software development project, students will be immersed in the activities used by industry to develop, manage, and monitor the development of a software product throughout the semester. Students will learn planning, tracking, risks, cost monitoring, and agile team collaboration.",
+      "source_web_citation": "\ue200cite\ue202turn0view17\ue201"
+    }
+  ],
+  "ece_research": {
+    "focus_areas_sample": [
+      "Artificial Intelligence and Machine Learning",
+      "Autonomous Systems, Communications and Robotics",
+      "Biomedical Technologies",
+      "Circuits, Microelectronics and VLSI",
+      "Communications, Coding and Information Theory",
+      "Computer Architecture and Cloud/Distributed Computing",
+      "Optics, Photonics and Terahertz",
+      "Quantum Information Science",
+      "Signal, Image and Video Processing",
+      "Software Engineering and Embedded Systems",
+      "Wireless Networking, Security and Systems"
+    ],
+    "source_web_citation": "\ue200cite\ue202turn0view30\ue201",
+    "research_centers_note": "See ECE research centers page for full list and links.",
+    "research_centers_source": "\ue200cite\ue202turn0view31\ue201"
+  }
+}

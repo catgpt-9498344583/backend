@@ -1,0 +1,176 @@
+{
+  "bs_software_engineering_program": {
+    "required_degree_coursework": {
+      "mathematics": [
+        "Calculus I",
+        "Calculus II",
+        "Discrete Mathematics for Computer Science",
+        "Engineering Probability & Statistics",
+        "Math/Statistics Upper-Division Elective"
+      ],
+      "science": [
+        "Chemistry I",
+        "Chemistry II or Biology I",
+        "Physics I (Mechanics)",
+        "Physics II (Electricity & Magnetism)"
+      ],
+      "foundational_engineering_and_computing": [
+        "Introduction to Engineering",
+        "Programming I",
+        "Programming II",
+        "Digital Logic",
+        "Object-Oriented Modeling and Design",
+        "Computer Organization",
+        "Engineering Ethics and Contemporary Issues",
+        "Software Engineering Sophomore Colloquium"
+      ],
+      "core_software_engineering_courses": [
+        "Introduction to Software Engineering",
+        "Software Requirements & Testing",
+        "Software Architecture and Design",
+        "Data Persistence",
+        "Software Assurance & Security",
+        "Software Project Management",
+        "DevOps",
+        "Interdisciplinary Capstone I",
+        "Interdisciplinary Capstone II"
+      ],
+      "general_education": [
+        "English Composition I",
+        "English Composition II",
+        "Exploring Perspectives (Artist)",
+        "Exploring Perspectives (Humanist)",
+        "Exploring Perspectives (Social Scientist)",
+        "Building Connections Courses",
+        "General Education Portfolio"
+      ],
+      "technical_electives": "Upper-division electives in computing, engineering, or related technical fields approved by an academic advisor."
+    },
+    "required_prerequisites": {
+      "math_sequence": [
+        "Calculus I \u2192 Calculus II \u2192 Discrete Math"
+      ],
+      "programming_sequence": [
+        "Programming I \u2192 Programming II \u2192 Digital Logic \u2192 Computer Organization"
+      ],
+      "software_engineering_sequence": [
+        "Intro to Software Engineering \u2192 Software Colloquium \u2192 Upper-Division SE Courses"
+      ],
+      "science_sequence": [
+        "Physics I \u2192 Physics II"
+      ],
+      "advanced_standing": "Required before enrolling in 300- and 400-level engineering courses."
+    },
+    "major_admission_requirements": {
+      "college_admission": "Students must be admitted to the College of Engineering.",
+      "major_declaration": "Incoming students may declare Software Engineering upon admission.",
+      "advanced_standing_requirements": [
+        "Completion of foundational lower-division coursework",
+        "Minimum grades (typically C or higher)",
+        "Minimum GPA set by the College of Engineering"
+      ]
+    },
+    "four_year_plan_on_campus": {
+      "year_1": {
+        "fall": [
+          "Calculus I",
+          "Chemistry I",
+          "English Composition I",
+          "Introduction to Engineering",
+          "First-Year General Education Course"
+        ],
+        "spring": [
+          "Calculus II",
+          "Introduction to Software Engineering",
+          "Programming I",
+          "English Composition II",
+          "Second Science Course"
+        ]
+      },
+      "year_2": {
+        "fall": [
+          "Discrete Mathematics",
+          "Physics I",
+          "Programming II",
+          "General Education Courses"
+        ],
+        "spring": [
+          "Object-Oriented Modeling and Design",
+          "Digital Logic",
+          "Software Engineering Colloquium",
+          "Physics II",
+          "Math/Statistics Elective"
+        ]
+      },
+      "year_3": {
+        "fall": [
+          "Engineering Probability & Statistics",
+          "Software Requirements & Testing",
+          "Data Persistence",
+          "Computer Organization"
+        ],
+        "spring": [
+          "Software Architecture & Design",
+          "Software Assurance & Security",
+          "Engineering Ethics",
+          "Algorithms (CSC upper-division)",
+          "Technical Elective",
+          "General Education Course"
+        ]
+      },
+      "year_4": {
+        "fall": [
+          "Software Project Management",
+          "Interdisciplinary Capstone I",
+          "Technical Elective",
+          "General Education Course"
+        ],
+        "spring": [
+          "DevOps",
+          "Interdisciplinary Capstone II",
+          "Technical Elective",
+          "General Education Portfolio",
+          "Final General Education Course"
+        ]
+      }
+    },
+    "four_year_plan_online": {
+      "notes": [
+        "Online students follow the same general sequencing.",
+        "SFWE courses may be offered more flexibly online.",
+        "Lab-based engineering courses use virtual simulations.",
+        "Progression still follows: math \u2192 programming \u2192 SE core \u2192 capstone."
+      ]
+    },
+    "preapproved_technical_electives": [
+      "Upper-division Software Engineering courses",
+      "Upper-division Computer Science courses",
+      "Upper-division Electrical & Computer Engineering courses",
+      "Upper-division Systems & Industrial Engineering courses",
+      "Other advisor-approved upper-division technical courses"
+    ],
+    "transfer_credit_applicability": {
+      "accepted_categories": [
+        "General Education",
+        "Mathematics",
+        "Science",
+        "Introductory Programming",
+        "Some engineering fundamentals"
+      ],
+      "notes": "Upper-division engineering courses require strict equivalency and may need additional review."
+    },
+    "transfer_credit_process": [
+      "Submit transcripts to the university.",
+      "Automatic evaluation assigns equivalents where possible.",
+      "Unmatched courses undergo departmental or university review.",
+      "Approved transfer credits appear in the student's degree audit."
+    ],
+    "course_registration_process": [
+      "Students register through UAccess Student.",
+      "Registration priority is based on class standing.",
+      "Prerequisites and Advanced Standing are automatically enforced.",
+      "Engineering advising holds must be cleared before enrollment.",
+      "Students can add or drop classes during registration windows."
+    ]
+  }
+}

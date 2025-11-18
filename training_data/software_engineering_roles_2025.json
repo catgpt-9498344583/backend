@@ -1,0 +1,457 @@
+{
+  "generated_on": "2025-11-17",
+  "country_focus": "United States",
+  "roles": [
+    {
+      "title": "Site Reliability / DevOps Engineer",
+      "description": "Designs and operates CI/CD pipelines, infrastructure-as-code, monitoring, and incident response to ensure scalable, reliable systems.",
+      "salary_range_usd_annually": "100000-200000",
+      "typical_companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Netflix",
+        "Fast-growing startups"
+      ],
+      "common_skills": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "CI/CD (Jenkins/GitHub Actions)",
+        "Linux",
+        "Prometheus/Grafana",
+        "AWS/GCP/Azure",
+        "Python/Go",
+        "SRE practices"
+      ],
+      "education_experience": "Bachelor's in CS/EE or equivalent; 2-5+ years experience",
+      "related_titles": [
+        "SRE",
+        "Platform Engineer",
+        "Infrastructure Engineer"
+      ],
+      "links": [
+        "https://www.levels.fyi/2024/",
+        "https://www.glassdoor.com/Salaries/software-engineer-salary-SRCH_KO0%2C17.htm"
+      ]
+    },
+    {
+      "title": "Backend Engineer",
+      "description": "Builds server-side logic, APIs, databases, and services that power applications.",
+      "salary_range_usd_annually": "95000-200000",
+      "typical_companies": [
+        "Stripe",
+        "Meta",
+        "Shopify",
+        "Salesforce",
+        "Startups"
+      ],
+      "common_skills": [
+        "Java/Go/Ruby/Python/Node.js",
+        "Databases (Postgres, MySQL, NoSQL)",
+        "REST/gRPC",
+        "Caching (Redis)",
+        "Testing",
+        "System design",
+        "Scalability"
+      ],
+      "education_experience": "Bachelor's degree; 1-5+ years",
+      "related_titles": [
+        "API Engineer",
+        "Platform Engineer",
+        "Systems Engineer"
+      ],
+      "links": [
+        "https://www.levels.fyi/t/software-engineer/locations/united-states",
+        "https://www.glassdoor.com/Salaries/software-developer-salary-SRCH_KO0%2C18.htm"
+      ]
+    },
+    {
+      "title": "Frontend Engineer",
+      "description": "Implements web UIs, interactions, and client-side performance optimizations.",
+      "salary_range_usd_annually": "85000-170000",
+      "typical_companies": [
+        "Google",
+        "Meta",
+        "Microsoft",
+        "Adobe",
+        "Figma",
+        "Startups"
+      ],
+      "common_skills": [
+        "JavaScript/TypeScript",
+        "React/Angular/Vue",
+        "HTML/CSS",
+        "Web performance",
+        "Accessibility",
+        "Testing (Jest/RTL)"
+      ],
+      "education_experience": "Bachelor's or equivalent; 1-5+ years",
+      "related_titles": [
+        "UI Engineer",
+        "Frontend Developer",
+        "Web Engineer"
+      ],
+      "links": [
+        "https://www.glassdoor.com/Salaries/software-engineer-salary-SRCH_KO0%2C17.htm"
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "description": "Works across frontend and backend, often handling end-to-end features and integrations.",
+      "salary_range_usd_annually": "90000-190000",
+      "typical_companies": [
+        "Startups",
+        "SMBs",
+        "Consultancies"
+      ],
+      "common_skills": [
+        "Frontend frameworks",
+        "Backend services",
+        "Databases",
+        "DevOps basics",
+        "API design"
+      ],
+      "education_experience": "Varied; strong portfolio often valued",
+      "related_titles": [
+        "Product Engineer",
+        "Software Engineer"
+      ],
+      "links": [
+        "https://www.levels.fyi/t/software-engineer/locations/united-states"
+      ]
+    },
+    {
+      "title": "Mobile Engineer (iOS / Android)",
+      "description": "Develops native or cross-platform mobile applications and optimizes for performance and UX.",
+      "salary_range_usd_annually": "95000-180000",
+      "typical_companies": [
+        "Apple",
+        "Google",
+        "Instacart",
+        "Uber",
+        "Gaming/mobile-first startups"
+      ],
+      "common_skills": [
+        "Swift/Objective-C (iOS)",
+        "Kotlin/Java (Android)",
+        "React Native/Flutter",
+        "APIs",
+        "Mobile performance",
+        "Testing"
+      ],
+      "education_experience": "Bachelor's preferred; portfolio and app-store experience valuable",
+      "related_titles": [
+        "iOS Engineer",
+        "Android Engineer",
+        "Mobile Developer"
+      ],
+      "links": [
+        "https://www.glassdoor.com/Salaries/software-engineer-salary-SRCH_KO0%2C17.htm"
+      ]
+    },
+    {
+      "title": "Desktop Engineer",
+      "description": "Builds desktop applications (Windows, macOS, Linux) using native frameworks or cross-platform toolkits.",
+      "salary_range_usd_annually": "80000-160000",
+      "typical_companies": [
+        "Microsoft",
+        "Adobe",
+        "Autodesk",
+        "Smaller SaaS vendors"
+      ],
+      "common_skills": [
+        "C#/WPF/.NET",
+        "C++/Qt",
+        "Electron",
+        "Cross-platform packaging",
+        "UI/UX"
+      ],
+      "education_experience": "Bachelor's in CS or related; 2+ years",
+      "related_titles": [
+        "Desktop Developer",
+        "Application Engineer"
+      ],
+      "links": []
+    },
+    {
+      "title": "Embedded Engineer",
+      "description": "Designs firmware and software running on microcontrollers and embedded hardware.",
+      "salary_range_usd_annually": "80000-150000",
+      "typical_companies": [
+        "Intel",
+        "NVIDIA",
+        "Tesla",
+        "Bosch",
+        "Medical/device companies"
+      ],
+      "common_skills": [
+        "C/C++",
+        "RTOS",
+        "Microcontrollers",
+        "Hardware interfaces (I2C, SPI, UART)",
+        "Debugging with JTAG/oscilloscope"
+      ],
+      "education_experience": "Bachelor's in EE/CS; hardware experience often required",
+      "related_titles": [
+        "Firmware Engineer",
+        "Embedded Software Engineer"
+      ],
+      "links": []
+    },
+    {
+      "title": "QA / Test Engineer (SDET)",
+      "description": "Builds automated tests, frameworks, and ensures product quality across releases.",
+      "salary_range_usd_annually": "65000-140000",
+      "typical_companies": [
+        "Large SaaS companies",
+        "Finance/healthcare software firms",
+        "Game studios"
+      ],
+      "common_skills": [
+        "Test automation (Selenium, Cypress)",
+        "Scripting (Python/JS)",
+        "CI integration",
+        "Unit/integration testing",
+        "Performance testing"
+      ],
+      "education_experience": "Bachelor's or equivalent; experience with test automation",
+      "related_titles": [
+        "Quality Engineer",
+        "Test Automation Engineer",
+        "SDET"
+      ],
+      "links": [
+        "https://www.payscale.com/research/US/Job%3DQuality_Assurance_%28QA%29_Engineer/Salary",
+        "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+      ]
+    },
+    {
+      "title": "Security Engineer",
+      "description": "Protects systems and data through threat modeling, secure development, incident response, and tooling.",
+      "salary_range_usd_annually": "110000-220000",
+      "typical_companies": [
+        "Security-first firms, large tech companies, finance"
+      ],
+      "common_skills": [
+        "Network security",
+        "Application security (SAST/DAST)",
+        "Penetration testing",
+        "Cloud security",
+        "SIEM, incident response"
+      ],
+      "education_experience": "Bachelor's; security certs (CISSP, OSCP) valued",
+      "related_titles": [
+        "Application Security Engineer",
+        "Pentester"
+      ],
+      "links": []
+    },
+    {
+      "title": "Engineering Manager",
+      "description": "Leads a team of engineers, handles hiring, roadmap delivery, performance reviews, and technical direction.",
+      "salary_range_usd_annually": "130000-250000",
+      "typical_companies": [
+        "Tech companies of all sizes"
+      ],
+      "common_skills": [
+        "People management",
+        "Project planning",
+        "System design knowledge",
+        "Communication",
+        "Hiring"
+      ],
+      "education_experience": "Often 5+ years engineering experience plus leadership experience",
+      "related_titles": [
+        "Tech Lead",
+        "Team Lead",
+        "Engineering Lead"
+      ],
+      "links": [
+        "https://www.levels.fyi/2024/"
+      ]
+    },
+    {
+      "title": "Director of Engineering",
+      "description": "Oversees multiple engineering teams, sets strategic technical direction, and aligns engineering with business goals.",
+      "salary_range_usd_annually": "180000-320000",
+      "typical_companies": [
+        "Mid-to-large tech companies"
+      ],
+      "common_skills": [
+        "Leadership at scale",
+        "Budgeting",
+        "Cross-functional collaboration",
+        "Strategic planning"
+      ],
+      "education_experience": "8+ years experience with management track record",
+      "related_titles": [
+        "Senior Engineering Manager",
+        "Head of Engineering"
+      ],
+      "links": []
+    },
+    {
+      "title": "VP of Engineering",
+      "description": "Executive role responsible for global engineering strategy, organizational structure, and high-level delivery.",
+      "salary_range_usd_annually": "220000-450000+",
+      "typical_companies": [
+        "Large tech companies, well-funded startups"
+      ],
+      "common_skills": [
+        "Org design",
+        "Executive communication",
+        "Technical credibility",
+        "Scaling systems and teams"
+      ],
+      "education_experience": "10+ years with senior management experience",
+      "related_titles": [
+        "CTO",
+        "Head of Engineering"
+      ],
+      "links": []
+    },
+    {
+      "title": "Project Manager (Technical)",
+      "description": "Manages project scope, schedule, resources, and stakeholder communication for technical projects.",
+      "salary_range_usd_annually": "70000-140000",
+      "typical_companies": [
+        "Consultancies, product companies, enterprises"
+      ],
+      "common_skills": [
+        "Agile/Scrum",
+        "Scheduling",
+        "Risk management",
+        "Stakeholder management"
+      ],
+      "education_experience": "PMP/Scrum certifications helpful",
+      "related_titles": [
+        "Program Manager",
+        "Delivery Manager"
+      ],
+      "links": []
+    },
+    {
+      "title": "Business Analyst",
+      "description": "Gathers requirements, models processes, and connects business needs to technical solutions.",
+      "salary_range_usd_annually": "60000-110000",
+      "typical_companies": [
+        "Enterprises, consulting firms"
+      ],
+      "common_skills": [
+        "Requirements elicitation",
+        "UML/flow modeling",
+        "SQL",
+        "Stakeholder interviews"
+      ],
+      "education_experience": "Bachelor's; domain knowledge beneficial",
+      "related_titles": [
+        "Systems Analyst",
+        "Product Analyst"
+      ],
+      "links": []
+    },
+    {
+      "title": "UX / Product Designer",
+      "description": "Designs user-centered interfaces, prototypes, and runs usability research to inform product decisions.",
+      "salary_range_usd_annually": "75000-180000",
+      "typical_companies": [
+        "Design-led tech companies, startups, agencies"
+      ],
+      "common_skills": [
+        "Figma/Sketch",
+        "User research",
+        "Prototyping",
+        "Interaction design",
+        "Design systems"
+      ],
+      "education_experience": "Portfolio required; degree in design helpful",
+      "related_titles": [
+        "Interaction Designer",
+        "UX Researcher",
+        "UI Designer"
+      ],
+      "links": []
+    },
+    {
+      "title": "Product Manager",
+      "description": "Defines product vision, prioritizes features, and coordinates cross-functional teams to deliver outcomes.",
+      "salary_range_usd_annually": "100000-240000",
+      "typical_companies": [
+        "Tech companies, startups, enterprises"
+      ],
+      "common_skills": [
+        "Roadmapping",
+        "Prioritization",
+        "Data analysis (SQL)",
+        "User research",
+        "Stakeholder management"
+      ],
+      "education_experience": "Often 3-7 years in product or related roles",
+      "related_titles": [
+        "Product Owner",
+        "Group Product Manager"
+      ],
+      "links": []
+    },
+    {
+      "title": "Data Engineer",
+      "description": "Builds data pipelines, ETL processes, and data infrastructure to support analytics and ML workloads.",
+      "salary_range_usd_annually": "100000-220000",
+      "typical_companies": [
+        "Tech, finance, adtech, analytics firms"
+      ],
+      "common_skills": [
+        "SQL",
+        "Spark",
+        "Airflow",
+        "Data modeling",
+        "Python/Scala",
+        "Cloud data services"
+      ],
+      "education_experience": "Bachelor's in CS/related; experience with data platforms",
+      "related_titles": [
+        "ETL Engineer",
+        "Analytics Engineer"
+      ],
+      "links": []
+    },
+    {
+      "title": "Security / Application Security Engineer",
+      "description": "Focuses on securing applications, code review, and developer tooling for security.",
+      "salary_range_usd_annually": "110000-230000",
+      "typical_companies": [
+        "Finance, tech, security firms"
+      ],
+      "common_skills": [
+        "SAST/DAST",
+        "Threat modeling",
+        "Code review",
+        "Secure coding practices"
+      ],
+      "education_experience": "Security certifications and relevant experience",
+      "related_titles": [
+        "AppSec Engineer",
+        "Security Analyst"
+      ],
+      "links": []
+    },
+    {
+      "title": "Freelancer / Independent Contractor (Software)",
+      "description": "Offers contract-based software development, consulting, or design services to clients.",
+      "salary_range_usd_annually": "Varies wildly; hourly rates $30-$250+",
+      "typical_clients": [
+        "Startups, SMBs, agencies"
+      ],
+      "common_skills": [
+        "Communication, client management, technical expertise in chosen stack"
+      ],
+      "education_experience": "Portfolio and reputation often more important than formal degree",
+      "related_titles": [
+        "Contract Developer",
+        "Consultant"
+      ],
+      "links": []
+    }
+  ]
+}

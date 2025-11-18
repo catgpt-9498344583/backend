@@ -1,0 +1,35 @@
+[
+  {
+    "question": "What are the admission requirements for the MS in Software Engineering at the University of Arizona?",
+    "answer": "Applicants must hold a bachelor’s degree in software engineering, computer science, or a related computing field from an accredited institution with a minimum cumulative GPA of 3.0 (either overall or in the last 60 units of undergraduate coursework). Applicants should demonstrate proficiency in at least one programming language or have 1–2 years of industry experience in a software development role. Those without a software-related background may be admitted conditionally and required to complete prerequisite or 'deficiency' courses before enrolling in graduate-level software engineering courses. All applicants must submit the following through GradApp: academic transcripts, a statement of purpose, three letters of recommendation, and a résumé or curriculum vitae. The GRE is not required for admission."
+  },
+  {
+    "question": "What coursework is required to complete the MS in Software Engineering?",
+    "answer": "The MS in Software Engineering requires a minimum of 30 graduate-level units (500-level or above). Students can choose one of two options: Thesis Option (24 units of graduate coursework and 6 units of SFWE 910 Thesis) or Coursework (Non-Thesis) Option (30 units of graduate coursework). All students must complete the core courses (12–13 units): SFWE 507 Foundations of Software Engineering (Spring), plus any three of the following: SFWE 502 Software DevSecOps (Spring), SFWE 503 Software Project Management (Fall), SFWE 504 Software Requirements, Analysis, and Test (Fall), SFWE 505 Software Architecture and Design (Spring), and SFWE 506 Distributed Computing (TBD)."
+  },
+  {
+    "question": "Are there prerequisite or foundation courses for the program?",
+    "answer": "Students are expected to enter the program with a solid background in computing fundamentals, including object-oriented programming, data structures and algorithms, and software design concepts. Applicants without a BS in Software Engineering or a closely related field may need to complete undergraduate courses to address any deficiencies before beginning graduate coursework."
+  },
+  {
+    "question": "What technical electives can MS Software Engineering students take?",
+    "answer": "Students may select from a broad range of approved technical electives offered by the Software Engineering (SFWE), Electrical and Computer Engineering (ECE), and Systems and Industrial Engineering (SIE) departments. Examples include: SFWE 501 Software Assurance, SFWE 508 Data Mining, SFWE 509 Cloud Computing Principles and Practices, SFWE 510 Cloud Native Software Engineering, SFWE 511 Software for Industrial Control Systems, SFWE 512 Robotics, SFWE 513 Software Engineering Research Methods, ECE 509 Cybersecurity: Concepts, Theory, and Practice, ECE 523 Machine Learning and Data Analytics, and SIE 533 Fundamentals of Data Science for Engineers. Additional electives may be approved by a student’s faculty advisor and the Graduate Studies Committee."
+  },
+  {
+    "question": "Are there specialization tracks within the MS in Software Engineering program?",
+    "answer": "While the MS in Software Engineering does not have formal specialization tracks, students can tailor their studies toward areas such as: Cloud and Distributed Systems (e.g., SFWE 509, SFWE 510, SFWE 506), Artificial Intelligence and Data Science (e.g., SFWE 508, ECE 523, SIE 533), Cybersecurity and Systems Reliability (e.g., SFWE 501, ECE 509, SFWE 511), and Robotics and Embedded Systems (e.g., SFWE 512, ECE 576B). These focus areas can be developed through elective selection and thesis research topics."
+  },
+  {
+    "question": "What is the difference between the thesis and non-thesis (coursework) options?",
+    "answer": "The Thesis Option is designed for students interested in research or continuing to a PhD. It requires 24 units of coursework and 6 thesis units (SFWE 910). A faculty advisor supervises the thesis, which must be reviewed by a committee of at least three faculty members and defended orally. The Coursework (Non-Thesis) Option is intended for students seeking professional advancement rather than research and requires 30 units of graduate coursework without a thesis requirement. Both options require maintaining a minimum GPA of 3.0 and completing an approved Plan of Study through GradPath."
+  },
+  {
+    "question": "What is the Accelerated Master’s Program (AMP) in Software Engineering, and how can undergraduate students apply?",
+    "answer": "The Accelerated Master’s Program (AMP) allows high-achieving University of Arizona undergraduates to begin working toward their Master of Science in Software Engineering while completing their bachelor’s degree. This program enables students to double-count up to 12 units of approved graduate coursework toward both degrees. Eligibility requirements include: completion of at least 75 undergraduate credits at the time of application and 90 credits at the time of entry into the AMP, a minimum cumulative GPA of 3.3, and at least 12 earned undergraduate units in the SFWE major at the University of Arizona. Courses graded Pass/Fail, Incomplete, or Audit do not count. Applicants must submit one letter of recommendation and a statement of purpose (no GRE required). Once admitted, students should meet with both the SFWE Graduate Program Coordinator and Undergraduate Advisor to develop a plan of study. Students planning to complete a thesis or report must identify a faculty advisor and submit a preliminary proposal by the end of their first semester in the AMP."
+  },
+  {
+    "question": "What academic performance and graduation requirements must MS Software Engineering students meet?",
+    "answer": "Students must maintain a minimum cumulative GPA of 3.0 on all graduate coursework to remain in good standing. A grade of C or higher is required for courses to count toward degree requirements (transfer credits require A or B grades). All students must submit a Plan of Study (POS) through GradPath before the end of their first year. Thesis students must form a committee of at least three faculty members, submit a Committee Appointment Form via GradPath, share a complete draft of their thesis at least two weeks before the defense, successfully defend the thesis orally, and submit the final approved version to the Graduate College. Students who fall below the GPA requirement will be placed on academic probation for one semester; continued unsatisfactory progress for two consecutive semesters may result in dismissal from the program."
+  }
+]
+
