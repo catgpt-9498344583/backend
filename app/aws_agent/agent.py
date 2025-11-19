@@ -21,9 +21,9 @@ import threading
 
 
 class Agent:
-    _instances: dict[UUID, "Agent"] = {}
-    _last_activity: dict[UUID, datetime] = {}
     _client = None
+    _instances: dict[UUID, "Agent"] = {}
+    _pending_delete: set[UUID] = set()
     _deletion_lock = threading.Lock()
 
     # ---------------------------
@@ -64,20 +64,9 @@ class Agent:
     # AGENT INSTANCES
     # ---------------------------
 
-    def __init__(self, session_id: UUID = None):
+    def __init__(self, session_id: UUID):
         self.session_id = session_id or uuid.uuid4()
         self.client = Agent._init_client()
-
-    @classmethod
-    def _cleanup_old_instances(cls):
-        """Remove any agents that haven't been accessed for more than TTL."""
-        now = datetime.utcnow()
-        expired = [sid for sid, ts in cls._last_access.items()
-                   if now - ts > cls._TTL]
-        for sid in expired:
-            print(f"[Agent] Removing expired session {sid}")
-            cls._instances.pop(sid, None)
-            cls._last_access.pop(sid, None)
 
     @classmethod
     def get_or_create(cls, session_id: str | UUID | None):
@@ -89,24 +78,25 @@ class Agent:
         if session_id not in cls._instances:
             cls._instances[session_id] = Agent(session_id=session_id)
 
-        cls._last_activity[session_id] = datetime.utcnow()
         return cls._instances[session_id]
 
     @classmethod
     def mark_for_deletion(cls, session_id: UUID):
-        """Schedule agent deletion 3 minutes after last activity."""
+        """Schedule this session to be deleted exactly 3 minutes after disconnect,
+        regardless of any later incoming activity.
+        """
+        # Mark the session as scheduled for deletion
+        cls._pending_delete.add(session_id)
+        print(f"[Agent] Session {session_id} marked for deletion.")
+
         def delete_later():
             with cls._deletion_lock:
-                last_time = cls._last_activity.get(session_id)
-                if not last_time:
-                    return  # already deleted
-
-                if datetime.utcnow() - last_time >= timedelta(minutes=3):
+                if session_id in cls._pending_delete:
                     cls._instances.pop(session_id, None)
-                    cls._last_activity.pop(session_id, None)
-                    print(f"[Agent] Session {session_id} deleted.")
+                    cls._pending_delete.discard(session_id)
+                    print(f"[Agent] Session {session_id} deleted (3m timer).")
 
-        # Schedule the check in 3 minutes
+        # Schedule deletion 3 minutes from now
         timer = threading.Timer(180, delete_later)
         timer.daemon = True
         timer.start()
@@ -114,11 +104,8 @@ class Agent:
     def invoke(self, prompt: str) -> dict | None:
         """Invoke Bedrock Agent and return JSON for the frontend.
 
-        Updates the last access time to prevent premature deletion.
+        Updates last_activity only if the session is NOT pending deletion.
         """
-        # Update last activity timestamp
-        Agent._last_activity[self.session_id] = datetime.utcnow()
-
         if not self.client:
             print(f"[Agent] Bedrock not initialized {self.session_id}.")
             return {"error": "Bedrock client not initialized."}
@@ -132,7 +119,6 @@ class Agent:
             )
 
             output = ""
-            # Some events may not have 'chunk' or 'bytes', so safeguard
             for event in response.get("completion", []):
                 chunk_data = event.get("chunk", {}).get("bytes")
                 if chunk_data:
