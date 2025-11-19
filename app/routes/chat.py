@@ -12,8 +12,10 @@ The Agent class (from app.aws_agent) handles all agent lifecycle logic including
 session creation, reuse, timed deletion, and Bedrock invocation.
 """
 
-from flask import request, jsonify
 from uuid import UUID
+
+from flask import request, jsonify
+
 from app.aws_agent import Agent
 
 
@@ -117,7 +119,7 @@ def register_chat_routes(app):
         # Validate UUID format
         try:
             session_uuid = UUID(session_id)
-        except Exception:
+        except ValueError:
             return jsonify({"error": "Invalid sessionId"}), 400
 
         # Schedule deletion (timer handled inside Agent class)
