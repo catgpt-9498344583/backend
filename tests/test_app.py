@@ -1,6 +1,7 @@
 # pylint: disable=W0621
 """Tests for the backend Flask API and Agent class."""
 
+import os
 import uuid
 from unittest.mock import patch, MagicMock
 
@@ -37,6 +38,19 @@ def isolate_agent_state():
     yield
     Agent._instances.clear()
     Agent._pending_delete.clear()
+
+
+@pytest.fixture(autouse=True)
+def mock_boto3_client(monkeypatch):
+    """
+    Mock boto3 client so that Agents created in tests do not call AWS.
+    This applies globally unless a test explicitly patches boto3.client.
+    """
+    fake_client = MagicMock()
+    fake_client.invoke_agent.return_value = {
+        "completion": [{"chunk": {"bytes": b"mock"}}]}
+    monkeypatch.setattr("app.aws_agent.agent.boto3.client",
+                        lambda *a, **kw: fake_client)
 
 
 # -----------------------------
@@ -147,6 +161,7 @@ def test_disconnect_invalid_cases(
     assert data is not None
     assert expected_error in data.get("error", "")
 
+
 # -----------------------------
 # Agent class
 # -----------------------------
@@ -154,15 +169,14 @@ def test_disconnect_invalid_cases(
 
 def test_agent_get_or_create_returns_instance():
     """Test that get_or_create returns an Agent instance."""
-    # pylint: disable=protected-access
     agent = Agent.get_or_create(None)
     assert isinstance(agent, Agent)
+    # pylint: disable=protected-access
     assert agent.session_id in Agent._instances
 
 
 def test_agent_mark_for_deletion_removes_session(monkeypatch):
     """Test Agent.mark_for_deletion removes instance after timer."""
-    # pylint: disable=protected-access
     agent = Agent.get_or_create(None)
     session_id = agent.session_id
 
@@ -176,10 +190,19 @@ def test_agent_mark_for_deletion_removes_session(monkeypatch):
     monkeypatch.setattr("threading.Timer", fake_timer)
     Agent.mark_for_deletion(session_id)
 
+    # pylint: disable=protected-access
     assert session_id not in Agent._instances
     assert called.get("deleted") is True
 
 
+# -----------------------------
+# boto3-dependent Agent.invoke tests
+# -----------------------------
+
+HAS_DOTENV = os.path.exists(".env")
+
+
+@pytest.mark.skipif(not HAS_DOTENV, reason=".env not found, skipping AWS tests")
 @patch("app.aws_agent.agent.boto3.client")
 def test_agent_invoke_success(mock_boto_client):
     """Test successful Agent.invoke returns response and sessionId."""
@@ -196,6 +219,7 @@ def test_agent_invoke_success(mock_boto_client):
     assert "sessionId" in result
 
 
+@pytest.mark.skipif(not HAS_DOTENV, reason=".env not found, skipping AWS tests")
 @patch("app.aws_agent.agent.boto3.client")
 def test_agent_invoke_failure(mock_boto_client):
     """Test Agent.invoke handles Boto3Error and returns error with sessionId."""
