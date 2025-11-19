@@ -1,0 +1,154 @@
+{
+  "bachelors": {
+    "program_name": "BS in Software Engineering",
+    "links": {
+      "admissions_page": "https://www.engineering.arizona.edu/undergrad-admissions/incoming",
+      "program_info": "https://engineering.arizona.edu/majors/software",
+      "undergrad_admissions_guidelines": "https://ece.engineering.arizona.edu/undergrad-programs/admissions"
+    },
+    "general_info": {
+      "goals": "Prepares students for real-world software development across the full SDLC, focusing on design, assurance, architecture, and project management. “Students are immersed in real-world projects that mimic industry practices.”" ,
+      "major_gpa_requirement_for_transfer": 2.50 :contentReference[oaicite:0]{index=0},
+      "advanced_standing_gpa": 2.50, :contentReference[oaicite:1]{index=1}
+    },
+    "admission_requirements": {
+      "freshman": {
+        "GPA": "See UA Admissions; general Engineering admission applies. " ,
+        "high_school_courses": "Strong math/science background recommended (calculus, physics)" ,
+        "other": "Standard UA College of Engineering admission process" 
+      },
+      "transfer": {
+        "GPA": 2.50 for software engineering major (from College of Engineering) :contentReference[oaicite:2]{index=2},
+        "coursework": "Transferable credits, including calculus and other STEM courses, will be evaluated"
+      },
+      "international": {
+        "requirements": "Same as domestic application via UA Admissions and College of Engineering. Refer to UA international admissions policies." ,
+        "contact": "undergradadvisor@ece.arizona.edu" :contentReference[oaicite:3]{index=3}
+      }
+    },
+    "deadlines": {
+      "general": "Follow UA Undergraduate Admissions deadlines (see UA Admissions site)", 
+      "notes": "No supplemental application for engineering majors. College of Engineering does not require separate application." :contentReference[oaicite:4]{index=4}
+    },
+    "fees": {
+      "application": "Use UA Admissions standard undergraduate application fees (check UA Admissions site)"
+    },
+    "documents_required": [
+      "High school transcript",
+      "Standardized test scores (if required by UA Admissions)",
+      "Letter of recommendation (if required by UA Admissions)",
+      "Personal essay (if required by UA Admissions)",
+      "Proof of English proficiency (if international; check UA Admissions international requirements)"
+    ],
+    "checklist_parsed": [
+      "Apply via UA Admissions",
+      "Pay the undergraduate application fee",
+      "Submit high school transcripts",
+      "Provide test scores (if needed)",
+      "Submit proof of English proficiency (if international)",
+      "Monitor admission decision"
+    ],
+    "checklist_raw": "Apply via UA Admissions; Submit transcripts; Test scores; Proof of English proficiency for international applicants; Accept your admission offer once decision is made."
+  },
+
+  "masters": {
+    "program_name": "MS in Software Engineering",
+    "links": {
+      "admissions_page": "https://grad.arizona.edu/admissions/requirements?_gl=1*1ah1f77*_gcl_aw*R0NMLjE3NjAxMTU3OTEuQ2owS0NRanczYUxIQmhEVEFSSXNBSVJpajU5bkNDQ0d5OEdweDdFdDc1MVJkZF9zNW9EX1NlZnVqdEpvYzU3U0lUT0RSN2tFV3ZmREVPVWFBdE1ZRUFMd193Y0I.*_gcl_au*MTA0OTc5NzkwNC4xNzYyMDQ2MjQ2*_ga*MTc3ODQwMjA5Ny4xNzU0MTcyNjE5*_ga_7PV3540XS3*czE3NjM1ODI3NTIkbzMzJGcxJHQxNzYzNTgyODQ1JGo2MCRsMCRoOTY3Mzg5NjYw",
+      "program_info": "https://online.arizona.edu/programs/graduate/online-master-science-software-engineering-ms",
+      "grad_admissions_guide": "https://grad.arizona.edu/admissions-guides/"
+    },
+    "general_info": {
+      "credits_required": 30 :contentReference[oaicite:5]{index=5},
+      "format": "Offered through Arizona Online and on-campus",
+      "skills_developed": [
+        "Agile development",
+        "DevSecOps",
+        "Continuous integration & deployment",
+        "Large-scale software architecture",
+        "Project management"
+      ]
+    },
+    "admission_requirements": {
+      "degree": "Bachelor’s degree from a regionally accredited (or equivalent international) institution" :contentReference[oaicite:6]{index=6},
+      "GPA": "Minimum 3.0 on 4.0 scale per Graduate College policy" :contentReference[oaicite:7]{index=7},
+      "english_proficiency": {
+        "requirements": "TOEFL (IBT) minimum 79, IELTS 7, or other accepted proof per Graduate College" :contentReference[oaicite:8]{index=8},
+        "conditional_admission": "Possible if other admission criteria met but English score is low" :contentReference[oaicite:9]{index=9}
+      },
+      "other_documents": [
+        "Official transcripts (all post-secondary)",
+        "Statement of purpose / letter of intent",
+        "At least one letter of recommendation",
+        "Resume or CV",
+        "Proof of programming experience (language proficiency or 1–2 years of industry experience)" :contentReference[oaicite:10]{index=10}
+      ],
+      "entrance_exam": "GRE not required for this program" :contentReference[oaicite:11]{index=11}
+    },
+    "deadlines": {
+      "application_type": "Rolling admissions for MS", 
+      "notes": "Submit early to allow for visa processing for international students" :contentReference[oaicite:12]{index=12}
+    },
+    "fees": {
+      "application_fee": "$90 for degree-seeking graduate application" :contentReference[oaicite:13]{index=13},
+      "tuition_per_credit": "$1,000 per credit (for online MS)" :contentReference[oaicite:14]{index=14}
+    },
+    "checklist_parsed": [
+      "Create GradApp profile",
+      "Upload unofficial transcripts",
+      "Upload statement of purpose",
+      "Provide letter(s) of recommendation",
+      "Upload resume / CV",
+      "Submit proof of English proficiency (if applicable)",
+      "Pay application fee",
+      "Submit application"
+    ],
+    "checklist_raw": "Apply via GradApp; Upload transcripts, statement of purpose, letters of recommendation, CV; Provide proof of English proficiency if needed; Pay the $90 application fee and submit."
+  },
+
+  "phd": {
+    "program_name": "PhD in Software Engineering",
+    "links": {
+      "admissions_page": "https://grad.arizona.edu/admissions-guides/?_gl=1*1tjt2fu*_gcl_aw*R0NMLjE3NjAxMTU3OTEuQ2owS0NRanczYUxIQmhEVEFSSXNBSVJpajU5bkNDQ0d5OEdweDdFdDc1MVJkZF9zNW9EX1NlZnVqdEpvYzU3U0lUT0RSN2tFV3ZmREVPVWFBdE1ZRUFMd193Y0I.*_gcl_au*MTA0OTc5NzkwNC4xNzYyMDQ2MjQ2*_ga*MTc3ODQwMjA5Ny4xNzU0MTcyNjE5*_ga_7PV3540XS3*czE3NjM1ODI3NTIkbzMzJGcxJHQxNzYzNTgyOTYyJGozNyRsMCRoOTY3Mzg5NjYw#program/SFEPHD",
+      "program_info": "https://online.arizona.edu/programs/graduate/online-doctor-philosophy-software-engineering-phd"
+    },
+    "general_info": {
+      "credits_required": 63 :contentReference[oaicite:15]{index=15},
+      "format": "Offered online by University of Arizona Online",
+      "minor_requirement": "A minor (determined with advisor) is required" :contentReference[oaicite:16]{index=16},
+      "testing": "No GRE required" :contentReference[oaicite:17]{index=17}
+    },
+    "admission_requirements": {
+      "degree": "Bachelor’s degree (or equivalent international) in computing-related field; if not, may need prerequisite graduate courses" :contentReference[oaicite:18]{index=18},
+      "GPA": "Minimum 3.0 average in prior degree (per Graduate College)" :contentReference[oaicite:19]{index=19},
+      "programming_experience": "Proficiency in at least one programming language OR 1–2 years industry software experience" :contentReference[oaicite:20]{index=20},
+      "english_proficiency": {
+        "requirements": "Same as MS: TOEFL, IELTS, etc., per Graduate College international requirements" :contentReference[oaicite:21]{index=21}
+      },
+      "other_documents": [
+        "Official transcripts",
+        "Letter of intent / statement of purpose (research interests, goals)",
+        "At least one letter of recommendation",
+        "Curriculum vitae (CV)"
+      ]
+    },
+    "deadlines": {
+      "fall": "January 5 application deadline mentioned for doctoral program" :contentReference[oaicite:22]{index=22}
+    },
+    "fees": {
+      "application_fee": "$90 for degree-seeking graduate application" :contentReference[oaicite:23]{index=23},
+      "cost_per_credit": "$1,000 per credit (online PhD)" :contentReference[oaicite:24]{index=24}
+    },
+    "checklist_parsed": [
+      "Complete GradApp profile",
+      "Upload transcripts",
+      "Write and upload letter of intent / statement of purpose",
+      "Provide letters of recommendation",
+      "Upload CV",
+      "Provide programming experience evidence",
+      "Submit proof of English proficiency (if required)",
+      "Pay application fee and submit"
+    ],
+    "checklist_raw": "Apply via GradApp; Upload transcripts, statement of purpose, recommendation letters, CV; Provide proof of programming experience; Provide English test scores if required; Pay the $90 application fee; Submit."
+  }
+}
