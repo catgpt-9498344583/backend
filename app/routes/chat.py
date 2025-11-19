@@ -44,7 +44,7 @@ def register_chat_routes(app):
     # CHAT ROUTE
     # ----------------------------------------------------------------------
     @app.route('/api/chat', methods=['POST'])
-    def chat():
+    def chat():  # pylint: disable=too-many-return-statements
         """
         Chat endpoint that forwards a prompt to the AWS Bedrock agent.
 
@@ -60,7 +60,7 @@ def register_chat_routes(app):
         - Returns a JSON response containing output text and sessionId
         """
         try:
-            data = request.get_json()
+            data = request.get_json(silent=True)
             if not data:
                 return jsonify({"error": "Missing JSON body"}), 400
 

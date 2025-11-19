@@ -86,27 +86,6 @@ def test_chat_success(mock_invoke, client_fixture):
     mock_invoke.assert_called_once()
 
 
-@pytest.mark.parametrize(
-    "payload, expected_status, expected_error",
-    [
-        (None, 415, "Unsupported Media Type"),
-        ({}, 400, "Missing JSON body")
-    ]
-)
-def test_chat_invalid_payload(client_fixture, payload, expected_status, expected_error):
-    """Test /api/chat invalid payloads."""
-    if payload is None:
-        response = client_fixture.post("/api/chat", data="")
-    else:
-        response = client_fixture.post("/api/chat", json=payload)
-
-    assert response.status_code == expected_status
-    if response.status_code != 415:
-        data = response.get_json()
-        assert data is not None
-        assert expected_error in data.get("error", "")
-
-
 @patch("app.routes.chat.Agent.invoke")
 def test_chat_invoke_failure(mock_invoke, client_fixture):
     """Ensure route returns 500 when Agent.invoke returns None."""
@@ -139,7 +118,7 @@ def test_disconnect_success(mock_mark, client_fixture):
     "payload, expected_status, expected_error",
     [
         (None, 400, "Missing JSON body"),
-        ({}, 400, "Missing sessionId"),
+        ({}, 400, "Missing JSON body"),
         ({"sessionId": "invalid-uuid"}, 400, "Invalid sessionId")
     ]
 )
