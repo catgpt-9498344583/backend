@@ -1,15 +1,16 @@
 """
 agent.py
 
-This module defines the Agent class, which wraps the AWS Bedrock Agent Runtime
-API using boto3. It allows sending natural language prompts to a Bedrock agent
-and receiving streamed responses.
+This module defines the Agent class, a lightweight wrapper around the AWS
+Bedrock Agent Runtime API using boto3. It encapsulates session management,
+agent invocation, cleanup logic, and environment configuration.
 
-Features:
-- Loads AWS credentials and config from a local `.env`-style file
-- Connects to the AWS Bedrock Agent Runtime
-- Maintains a unique session ID per agent instance
-- Supports invocation of Bedrock agents with prompt input
+Key Responsibilities:
+- Load AWS credentials/configuration from a local `.env` file
+- Initialize a shared Bedrock Agent Runtime client
+- Maintain per-session Agent instances identified by UUID
+- Allow external callers to invoke an agent via natural-language prompts
+- Support session cleanup triggered by an external `/disconnect` call
 """
 
 from uuid import UUID
@@ -21,27 +22,45 @@ import threading
 
 
 class Agent:
-    _instances: dict[UUID, "Agent"] = {}
-    _last_activity: dict[UUID, datetime] = {}
+    # Shared Bedrock client (lazily initialized once)
     _client = None
+
+    # Mapping of session UUID → Agent instance
+    _instances: dict[UUID, "Agent"] = {}
+
+    # Sessions marked for deletion (after 3 minutes)
+    _pending_delete: set[UUID] = set()
+
+    # Prevent race conditions between timer threads
     _deletion_lock = threading.Lock()
 
-    # ---------------------------
-    # ENV + CLIENT INITIALIZATION
-    # ---------------------------
+    # ----------------------------------------------------------------------
+    # ENVIRONMENT + CLIENT INITIALIZATION
+    # ----------------------------------------------------------------------
 
     @classmethod
     def _load_env(cls):
+        """Load environment variables manually from a local `.env` file.
+
+        This avoids external dependencies like python-dotenv while still
+        making local development convenient.
+        """
         try:
             with open(".env") as f:
                 for line in f:
                     key, value = line.strip().split("=")
                     os.environ[key] = value
         except Exception:
+            # `.env` is optional; missing or malformed entries are ignored.
             pass
 
     @classmethod
     def _init_client(cls):
+        """Initialize (or return existing) boto3 Bedrock Agent Runtime client.
+
+        Returns:
+            boto3.Client | None: The initialized client, or None if setup failed.
+        """
         if cls._client is not None:
             return cls._client
 
@@ -60,70 +79,81 @@ class Agent:
 
         return cls._client
 
-    # ---------------------------
-    # AGENT INSTANCES
-    # ---------------------------
+    # ----------------------------------------------------------------------
+    # AGENT INSTANCE CREATION + SESSION MANAGEMENT
+    # ----------------------------------------------------------------------
 
-    def __init__(self, session_id: UUID = None):
+    def __init__(self, session_id: UUID):
+        """Create an agent instance tied to a specific session UUID."""
         self.session_id = session_id or uuid.uuid4()
         self.client = Agent._init_client()
 
     @classmethod
-    def _cleanup_old_instances(cls):
-        """Remove any agents that haven't been accessed for more than TTL."""
-        now = datetime.utcnow()
-        expired = [sid for sid, ts in cls._last_access.items()
-                   if now - ts > cls._TTL]
-        for sid in expired:
-            print(f"[Agent] Removing expired session {sid}")
-            cls._instances.pop(sid, None)
-            cls._last_access.pop(sid, None)
-
-    @classmethod
     def get_or_create(cls, session_id: str | UUID | None):
+        """Retrieve an existing Agent instance for a session, or create one.
+
+        Args:
+            session_id: A string UUID, UUID object, or None.
+
+        Returns:
+            Agent: The associated Agent instance.
+        """
+        # Safely normalize input into a UUID
         try:
             session_id = UUID(str(session_id)) if session_id else uuid.uuid4()
         except Exception:
             session_id = uuid.uuid4()
 
+        # Create a new agent if one doesn't exist yet
         if session_id not in cls._instances:
             cls._instances[session_id] = Agent(session_id=session_id)
 
-        cls._last_activity[session_id] = datetime.utcnow()
         return cls._instances[session_id]
 
     @classmethod
     def mark_for_deletion(cls, session_id: UUID):
-        """Schedule agent deletion 3 minutes after last activity."""
+        """Mark a session for deletion exactly 3 minutes after disconnect.
+
+        This function is triggered only by the `/disconnect` backend route.
+        A timer thread will delete the session from memory after the delay
+        unless the session has already been removed.
+        """
+        cls._pending_delete.add(session_id)
+        print(f"[Agent] Session {session_id} marked for deletion.")
+
         def delete_later():
+            """Delete the session if it is still pending after the timer."""
             with cls._deletion_lock:
-                last_time = cls._last_activity.get(session_id)
-                if not last_time:
-                    return  # already deleted
-
-                if datetime.utcnow() - last_time >= timedelta(minutes=3):
+                if session_id in cls._pending_delete:
                     cls._instances.pop(session_id, None)
-                    cls._last_activity.pop(session_id, None)
-                    print(f"[Agent] Session {session_id} deleted.")
+                    cls._pending_delete.discard(session_id)
+                    print(f"[Agent] Session {session_id} deleted (3m timer).")
 
-        # Schedule the check in 3 minutes
+        # Schedule deletion 3 minutes from now
         timer = threading.Timer(180, delete_later)
         timer.daemon = True
         timer.start()
 
+    # ----------------------------------------------------------------------
+    # BEDROCK INVOCATION
+    # ----------------------------------------------------------------------
+
     def invoke(self, prompt: str) -> dict | None:
-        """Invoke Bedrock Agent and return JSON for the frontend.
+        """Send a natural-language prompt to the AWS Bedrock agent.
 
-        Updates the last access time to prevent premature deletion.
+        Args:
+            prompt: The user's input text.
+
+        Returns:
+            dict: Response payload including agent output and sessionId.
+                  Contains {"error": "..."} if invocation failed.
         """
-        # Update last activity timestamp
-        Agent._last_activity[self.session_id] = datetime.utcnow()
-
         if not self.client:
             print(f"[Agent] Bedrock not initialized {self.session_id}.")
             return {"error": "Bedrock client not initialized."}
 
         try:
+            # Send prompt to Bedrock agent (streaming enabled)
             response = self.client.invoke_agent(
                 agentId=os.getenv("AGENT_ID"),
                 agentAliasId=os.getenv("AGENT_ALIAS_ID"),
@@ -131,8 +161,8 @@ class Agent:
                 inputText=prompt,
             )
 
+            # Parse streaming text chunks into a single output string
             output = ""
-            # Some events may not have 'chunk' or 'bytes', so safeguard
             for event in response.get("completion", []):
                 chunk_data = event.get("chunk", {}).get("bytes")
                 if chunk_data:
