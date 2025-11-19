@@ -1,5 +1,5 @@
 """
-__init__.py
+routes/__init__.py
 
 This module serves as the entry point for registering all API routes
 in the Flask application. It imports individual route registration

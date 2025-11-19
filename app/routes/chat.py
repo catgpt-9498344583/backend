@@ -1,5 +1,5 @@
 """
-chat_routes.py
+routes/chat.py
 
 This module registers all chat-related HTTP routes for the Flask backend.
 
@@ -39,6 +39,7 @@ def register_chat_routes(app):
     @app.route('/api/hello')
     def hello():
         """Simple endpoint used for health checks or quick connectivity tests."""
+        print("Received hello request")
         return {"message": "Hello from backend!"}
 
     # ----------------------------------------------------------------------
@@ -63,7 +64,7 @@ def register_chat_routes(app):
         - Returns a JSON response containing output text and sessionId
         """
         data = request.get_json()
-        print("Received request: ", data)
+        print("Received chat request: ", data)
 
         # Ensure JSON body exists
         if not data:
@@ -108,20 +109,20 @@ def register_chat_routes(app):
         - Converts to UUID
         - Schedules delayed deletion using Agent.mark_for_deletion()
         """
-        data = request.get_json()
+        data = request.get_json(silent=True)
+        print("Received disconnect request:", data)
 
-        # Validate body and sessionId presence
-        if not data or 'sessionId' not in data:
+        if data is None:
+            return jsonify({"error": "Missing JSON body"}), 400
+        if 'sessionId' not in data:
             return jsonify({"error": "Missing sessionId"}), 400
 
         session_id = data['sessionId']
 
-        # Validate UUID format
         try:
             session_uuid = UUID(session_id)
         except ValueError:
             return jsonify({"error": "Invalid sessionId"}), 400
 
-        # Schedule deletion (timer handled inside Agent class)
         Agent.mark_for_deletion(session_uuid)
         return jsonify({"status": "ok"}), 200
