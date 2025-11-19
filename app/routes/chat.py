@@ -1,5 +1,5 @@
 """
-chat_routes.py
+routes/chat.py
 
 This module registers all chat-related HTTP routes for the Flask backend.
 

@@ -1,5 +1,5 @@
 """
-agent.py
+aws_agent/agent.py
 
 This module defines the Agent class, a lightweight wrapper around the AWS
 Bedrock Agent Runtime API using boto3. It encapsulates session management,
