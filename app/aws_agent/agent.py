@@ -16,12 +16,17 @@ Key Responsibilities:
 from uuid import UUID
 import uuid
 import os
-import boto3
-from datetime import datetime, timedelta
 import threading
+import boto3
 
 
 class Agent:
+    """Manages AWS Bedrock agent sessions, invocation, and delayed cleanup.
+
+    Each Agent instance is tied to a session UUID and shares a single
+    Bedrock client. Sessions can be marked for deletion by an external
+    disconnect call, triggering a 3-minute timer for cleanup.
+    """
     # Shared Bedrock client (lazily initialized once)
     _client = None
 
@@ -46,20 +51,22 @@ class Agent:
         making local development convenient.
         """
         try:
-            with open(".env") as f:
+            with open(".env", encoding="utf-8") as f:
                 for line in f:
                     key, value = line.strip().split("=")
                     os.environ[key] = value
-        except Exception:
-            # `.env` is optional; missing or malformed entries are ignored.
-            pass
+        except FileNotFoundError:
+            print("Error .env file not found")
+        except ValueError:
+            print("Error parsing .env file")
 
     @classmethod
     def _init_client(cls):
         """Initialize (or return existing) boto3 Bedrock Agent Runtime client.
 
         Returns:
-            boto3.Client | None: The initialized client, or None if setup failed.
+            boto3.Client: The initialized client.
+            None: Setup failed.
         """
         if cls._client is not None:
             return cls._client
@@ -73,7 +80,7 @@ class Agent:
                 aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
                 aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
             )
-        except Exception as e:
+        except boto3.exceptions.Boto3Error as e:
             print(f"[Agent] Error initializing Bedrock client: {e}")
             cls._client = None
 
@@ -101,7 +108,7 @@ class Agent:
         # Safely normalize input into a UUID
         try:
             session_id = UUID(str(session_id)) if session_id else uuid.uuid4()
-        except Exception:
+        except ValueError:
             session_id = uuid.uuid4()
 
         # Create a new agent if one doesn't exist yet
@@ -173,6 +180,6 @@ class Agent:
                 "sessionId": str(self.session_id),
             }
 
-        except Exception as e:
+        except boto3.exceptions.Boto3Error as e:
             print(f"[Agent] Error invoking agent {self.session_id}: {e}")
             return {"error": str(e), "sessionId": str(self.session_id)}
