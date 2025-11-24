@@ -1,0 +1,58 @@
+{
+  "university": "University of Arizona",
+  "financial_info": {
+    "programs": {
+      "PhD": {
+        "cost_of_attendance_2025_2026": {
+          "residency": {
+            "arizona_resident": {
+              "tuition_and_fees": 12700,
+              "living_and_food": 16800,
+              "books_and_supplies": 600,
+              "travel": 5000,
+              "miscellaneous": 5100,
+              "estimated_per_semester": {
+                "min": 20100,
+                "other": 6650
+              },
+              "estimated_per_year": {
+                "min": 40200,
+                "other": 13300
+              }
+            },
+            "non_resident": {
+              "tuition_and_fees": 23400,
+              "living_and_food": 16800,
+              "books_and_supplies": 600,
+              "travel": 5100,
+              "miscellaneous": 2500,
+              "estimated_per_semester": {
+                "min": 24200,
+                "other": 12000
+              },
+              "estimated_per_year": {
+                "min": 48400,
+                "other": 24000
+              }
+            }
+          }
+        },
+        "assistantships": {
+          "description": "PhD students commonly receive Graduate Assistant (GA/RA/TA) appointments.",
+          "benefits": {
+            "tuition_remission": "Typically covers base tuition for 0.50 FTE GA; student pays remaining fees.",
+            "health_insurance": "UA student health insurance premium is covered for 0.50 FTE GA.",
+            "stipends": "Set by individual departments and colleges, varies by program.",
+            "workload": "0.50 FTE assistantship corresponds to approximately 20 hours per week."
+          },
+          "ga_tuition_reference": "https://arizona.app.box.com/v/grad-ga-tuition"
+        },
+        "fafsa_school_code": "001083",
+        "fa_filing_deadline": {
+          "recommended": "April 1, 2026 (new Fall), November 1, 2026 (new Spring)"
+        },
+        "notes": "PhD cost-of-attendance matches standard graduate COA unless student holds an assistantship."
+      }
+    }
+  }
+}
