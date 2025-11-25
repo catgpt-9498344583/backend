@@ -7,28 +7,28 @@
       "undergrad_admissions_guidelines": "https://ece.engineering.arizona.edu/undergrad-programs/admissions"
     },
     "general_info": {
-      "goals": "Prepares students for real-world software development across the full SDLC, focusing on design, assurance, architecture, and project management. “Students are immersed in real-world projects that mimic industry practices.”" ,
-      "major_gpa_requirement_for_transfer": 2.50 :contentReference[oaicite:0]{index=0},
-      "advanced_standing_gpa": 2.50, :contentReference[oaicite:1]{index=1}
+      "goals": "Prepares students for real-world software development across the full SDLC, focusing on design, assurance, architecture, and project management. “Students are immersed in real-world projects that mimic industry practices.”",
+      "major_gpa_requirement_for_transfer": 2.50,
+      "advanced_standing_gpa": 2.50
     },
     "admission_requirements": {
       "freshman": {
         "GPA": "See UA Admissions; general Engineering admission applies. " ,
         "high_school_courses": "Strong math/science background recommended (calculus, physics)" ,
-        "other": "Standard UA College of Engineering admission process" 
+        "other": "Standard UA College of Engineering admission process"
       },
       "transfer": {
-        "GPA": 2.50 for software engineering major (from College of Engineering) :contentReference[oaicite:2]{index=2},
+        "GPA": "2.50 for software engineering major (from College of Engineering)",
         "coursework": "Transferable credits, including calculus and other STEM courses, will be evaluated"
       },
       "international": {
         "requirements": "Same as domestic application via UA Admissions and College of Engineering. Refer to UA international admissions policies." ,
-        "contact": "undergradadvisor@ece.arizona.edu" :contentReference[oaicite:3]{index=3}
+        "contact": "undergradadvisor@ece.arizona.edu"
       }
     },
     "deadlines": {
       "general": "Follow UA Undergraduate Admissions deadlines (see UA Admissions site)", 
-      "notes": "No supplemental application for engineering majors. College of Engineering does not require separate application." :contentReference[oaicite:4]{index=4}
+      "notes": "No supplemental application for engineering majors. College of Engineering does not require separate application."
     },
     "fees": {
       "application": "Use UA Admissions standard undergraduate application fees (check UA Admissions site)"
@@ -59,7 +59,7 @@
       "grad_admissions_guide": "https://grad.arizona.edu/admissions-guides/"
     },
     "general_info": {
-      "credits_required": 30 :contentReference[oaicite:5]{index=5},
+      "credits_required": 30,
       "format": "Offered through Arizona Online and on-campus",
       "skills_developed": [
         "Agile development",
@@ -70,28 +70,28 @@
       ]
     },
     "admission_requirements": {
-      "degree": "Bachelor’s degree from a regionally accredited (or equivalent international) institution" :contentReference[oaicite:6]{index=6},
-      "GPA": "Minimum 3.0 on 4.0 scale per Graduate College policy" :contentReference[oaicite:7]{index=7},
+      "degree": "Bachelor’s degree from a regionally accredited (or equivalent international) institution",
+      "GPA": "Minimum 3.0 on 4.0 scale per Graduate College policy",
       "english_proficiency": {
-        "requirements": "TOEFL (IBT) minimum 79, IELTS 7, or other accepted proof per Graduate College" :contentReference[oaicite:8]{index=8},
-        "conditional_admission": "Possible if other admission criteria met but English score is low" :contentReference[oaicite:9]{index=9}
+        "requirements": "TOEFL (IBT) minimum 79, IELTS 7, or other accepted proof per Graduate College",
+        "conditional_admission": "Possible if other admission criteria met but English score is low"
       },
       "other_documents": [
         "Official transcripts (all post-secondary)",
         "Statement of purpose / letter of intent",
         "At least one letter of recommendation",
         "Resume or CV",
-        "Proof of programming experience (language proficiency or 1–2 years of industry experience)" :contentReference[oaicite:10]{index=10}
+        "Proof of programming experience (language proficiency or 1–2 years of industry experience)"
       ],
-      "entrance_exam": "GRE not required for this program" :contentReference[oaicite:11]{index=11}
+      "entrance_exam": "GRE not required for this program"
     },
     "deadlines": {
       "application_type": "Rolling admissions for MS", 
-      "notes": "Submit early to allow for visa processing for international students" :contentReference[oaicite:12]{index=12}
+      "notes": "Submit early to allow for visa processing for international students"
     },
     "fees": {
-      "application_fee": "$90 for degree-seeking graduate application" :contentReference[oaicite:13]{index=13},
-      "tuition_per_credit": "$1,000 per credit (for online MS)" :contentReference[oaicite:14]{index=14}
+      "application_fee": "$90 for degree-seeking graduate application",
+      "tuition_per_credit": "$1,000 per credit (for online MS)"
     },
     "checklist_parsed": [
       "Create GradApp profile",
@@ -113,17 +113,17 @@
       "program_info": "https://online.arizona.edu/programs/graduate/online-doctor-philosophy-software-engineering-phd"
     },
     "general_info": {
-      "credits_required": 63 :contentReference[oaicite:15]{index=15},
+      "credits_required": 63,
       "format": "Offered online by University of Arizona Online",
-      "minor_requirement": "A minor (determined with advisor) is required" :contentReference[oaicite:16]{index=16},
-      "testing": "No GRE required" :contentReference[oaicite:17]{index=17}
+      "minor_requirement": "A minor (determined with advisor) is required",
+      "testing": "No GRE required"
     },
     "admission_requirements": {
-      "degree": "Bachelor’s degree (or equivalent international) in computing-related field; if not, may need prerequisite graduate courses" :contentReference[oaicite:18]{index=18},
-      "GPA": "Minimum 3.0 average in prior degree (per Graduate College)" :contentReference[oaicite:19]{index=19},
-      "programming_experience": "Proficiency in at least one programming language OR 1–2 years industry software experience" :contentReference[oaicite:20]{index=20},
+      "degree": "Bachelor’s degree (or equivalent international) in computing-related field; if not, may need prerequisite graduate courses",
+      "GPA": "Minimum 3.0 average in prior degree (per Graduate College)",
+      "programming_experience": "Proficiency in at least one programming language OR 1–2 years industry software experience",
       "english_proficiency": {
-        "requirements": "Same as MS: TOEFL, IELTS, etc., per Graduate College international requirements" :contentReference[oaicite:21]{index=21}
+        "requirements": "Same as MS: TOEFL, IELTS, etc., per Graduate College international requirements"
       },
       "other_documents": [
         "Official transcripts",
@@ -133,11 +133,11 @@
       ]
     },
     "deadlines": {
-      "fall": "January 5 application deadline mentioned for doctoral program" :contentReference[oaicite:22]{index=22}
+      "fall": "January 5 application deadline mentioned for doctoral program"
     },
     "fees": {
-      "application_fee": "$90 for degree-seeking graduate application" :contentReference[oaicite:23]{index=23},
-      "cost_per_credit": "$1,000 per credit (online PhD)" :contentReference[oaicite:24]{index=24}
+      "application_fee": "$90 for degree-seeking graduate application",
+      "cost_per_credit": "$1,000 per credit (online PhD)"
     },
     "checklist_parsed": [
       "Complete GradApp profile",
