@@ -1,0 +1,50 @@
+MS in Software Engineering – overview
+	•	The M.S. in Software Engineering (SFEMS) prepares students to deepen their skills in software design, architecture and emerging technologies while building leadership in software projects. ￼
+	•	Students learn to design, adapt and evaluate software systems across domains such as:
+	•	Cloud computing and cloud-native development
+	•	Robotics and embedded systems
+	•	Cybersecurity
+	•	Data mining, AI and machine learning
+	•	Distributed and web-scale systems  ￼
+
+Degree structure
+	•	Total units: 30 graduate credits. ￼
+	•	Two options:
+	•	Thesis: 24 units of graded SFWE coursework + 6 thesis units (SFWE 910). ￼
+	•	Non-thesis: 30 units of graded SFWE coursework. ￼
+
+Core courses (12 units total)
+
+All MS students complete:
+	•	SFWE 507 – Foundations of Software Engineering (3 units)
+	•	Plus three courses (9 units) selected from: ￼
+	•	SFWE 502 – Software DevSecOps
+	•	SFWE 503 – Software Project Management
+	•	SFWE 504 – Software Requirements Analysis and Test
+	•	SFWE 505 – Software Architecture and Design
+	•	SFWE 506 – Distributed Computing
+
+Technical computing electives
+
+Remaining units are SFWE graduate electives, approved by an SFWE faculty advisor. Typical options (depending on which were not already used as core) include: ￼
+	•	SFWE 501 – Software Assurance
+	•	SFWE 508 – Data Mining
+	•	SFWE 509 – Cloud Computing Principles and Practices
+	•	SFWE 510 – Cloud Native Software Engineering
+	•	SFWE 511 – Software for Industrial Control Systems
+	•	SFWE 512 – Robotics
+	•	SFWE 513 – Software Engineering Research Methods
+	•	Related ECE and SIE courses (e.g., Operating Systems, Machine Learning & Data Analytics, Computer Architecture, Data Science for Engineers, Model-Based Systems Engineering, Biomedical Informatics, etc.)
+
+Exact elective selection is planned with the advisor and Graduate Studies Committee to match a student’s interests and career goals.
+
+Thesis vs non-thesis
+	•	Non-thesis option:
+	•	12 units of core courses
+	•	18 units of technical computing electives (SFWE or related courses, advisor-approved). ￼
+	•	Thesis option:
+	•	12 units of core courses
+	•	12 units of technical computing electives
+	•	6 units of thesis (SFWE 910) under supervision of a faculty committee (at least two SFWE-eligible members). ￼
+
+Students should consult the SFWE Graduate Student Handbook and the Graduate College website for up-to-date committee and policy details. ￼

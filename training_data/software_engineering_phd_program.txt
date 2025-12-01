@@ -1,0 +1,53 @@
+PhD in Software Engineering – overview
+	•	The Ph.D. in Software Engineering (SFEPHD) is a research-intensive program focused on designing, developing, testing and maintaining complex software systems in a rigorous, engineering-driven way. ￼
+	•	Students build depth in one or more areas such as:
+	•	Web and mobile software
+	•	Embedded and cyber-physical systems
+	•	Cybersecurity and networked systems
+	•	Machine learning and data analytics
+	•	Large-scale systems and other interdisciplinary domains ￼
+
+Graduates are prepared to lead in software development, computing, automation, connectivity, intelligent systems, data science and related fields across academia, industry and government. ￼
+
+Admissions snapshot
+
+To be considered for admission, applicants typically need: ￼
+	•	A Bachelor’s degree in a computing-related field
+	•	GPA of 3.0 or higher in prior undergraduate/graduate work
+	•	At least three letters of recommendation
+	•	Programming proficiency in one or more languages or 1–2 years of industry experience in a software-related position
+	•	For international students, proof of English proficiency per UA Graduate College requirements (TOEFL, IELTS, PTE, or approved alternatives; Duolingo is not accepted for this program)
+
+GRE is optional; if provided, competitive scores are listed in the source material (verbal, quantitative and writing benchmarks). ￼
+
+Degree requirements
+	•	Total units: 63 credits. ￼
+
+Core coursework (minimum 15 units): ￼
+	•	SFWE 513 – Software Engineering Research Methods (3)
+	•	SFWE 507 – Foundations of Software Engineering (3)
+	•	9 additional units selected from:
+	•	SFWE 502 – Software DevSecOps
+	•	SFWE 503 – Software Project Management
+	•	SFWE 504 – Software Requirements Analysis and Test
+	•	SFWE 505 – Software Architecture and Design
+	•	SFWE 506 – Distributed Computing
+
+Additional non-dissertation coursework (16 units): advisor- and DGS-approved selection from advanced SFWE, ECE and SIE courses, such as: ￼
+	•	SFWE 501, 508–513; CSE 501; ECE 503, 509, 513, 523, 562, 576A/B, 579; SIE 533, 558, 577, and related offerings.
+
+Colloquium and dissertation (20 units): ￼
+	•	SFWE 695A – Colloquium (2 units total)
+	•	SFWE 920 – Dissertation Research (18 units)
+
+Minor requirement:
+	•	12 units forming a minor, either within a single discipline or split between two disciplines (6 + 6), as approved by the advisor and committee. ￼
+
+Milestones
+
+Students must complete the following program-level milestones: ￼
+	•	Doctoral Qualifying Exam (DQE): evaluates core software engineering knowledge and readiness for advanced research.
+	•	Comprehensive Exam: confirms that the student has sufficient background for dissertation research and leads to formal candidacy. ￼
+	•	Dissertation & Final Oral Defense: original research documented in a written dissertation and publicly defended before a faculty committee, followed by a closed Q&A session. ￼
+
+The PhD program emphasizes discovery-based, experiential learning with projects that build communication, teamwork, critical thinking and professional skills alongside deep technical expertise. ￼

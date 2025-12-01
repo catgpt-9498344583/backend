@@ -1,0 +1,117 @@
+Program overview
+	•	The University of Arizona B.S. in Software Engineering (SFWE) prepares students to design, build and maintain complex software systems that support an increasingly connected world. ￼
+	•	Students learn the full software development lifecycle (SDLC) – from requirements and architecture through implementation, assurance, DevOps and maintenance. ￼
+	•	The program is administered by the Department of Electrical & Computer Engineering (ECE) and the College of Engineering, and is available on:
+	•	Main Campus (Tucson)
+	•	Arizona Online
+	•	Yuma and Chandler locations (via Near You Network)  ￼
+
+Academic focus areas
+
+Students build depth across topics that span the entire SDLC and large-scale product development, including: ￼
+	•	Software requirements analysis and testing
+	•	Software architecture and design
+	•	Software assurance and security
+	•	DevOps, CI/CD and agile methods
+	•	Project management and cost estimation
+	•	Digital logic, computer organization and embedded systems
+
+Electives allow students to specialize in areas such as:
+	•	Web and mobile applications
+	•	Embedded and cyber-physical systems
+	•	Data analytics, machine learning and AI
+	•	Cloud, networks and cybersecurity  ￼
+
+Research & experiential learning
+
+Students can get involved in software-related research in areas such as: ￼
+	•	Autonomous systems and robotics
+	•	Cloud/distributed computing and computer architecture
+	•	Data analytics, informatics and machine learning
+	•	Embedded systems and wireless networking / security
+
+Hands-on opportunities include:
+	•	Design projects every semester, culminating in an interdisciplinary capstone sequence (ENGR 498A/B). ￼
+	•	Internships with long-term industry partners.
+	•	Student organizations and national competitions (IEEE, IISE/INCOSE, Software Engineering Wildcats, and other engineering clubs that support diversity and inclusion). ￼
+
+Career outcomes
+
+Graduates are prepared for roles such as:
+	•	Software or applications engineer / developer
+	•	Software architect
+	•	DevOps / cloud engineer
+	•	Systems engineer
+	•	Project manager or technical lead
+
+Employers span both industry and government (examples in the source doc include large tech companies, defense contractors, health tech companies, financial institutions, and national labs). ￼
+
+⸻
+
+BS curriculum snapshot (Main Campus, Catalog Year 2025–26)
+
+Note: This is a simplified, human-readable summary of the official 4-year plan. Students must always check the current General Catalog and meet with an advisor for final requirements. ￼
+
+Year 1
+Fall (approx. 14–16 units)  ￼
+	•	Calculus I (MATH 122A/B or 125)
+	•	Intro chemistry with lab (CHEM 151 or 161/163) – also counts as Natural Science Gen Ed
+	•	First-Year Composition (ENGL 101/107/109H)
+	•	Introduction to Engineering (ENGR 102A/B or ENGR 102)
+	•	UNIV 101 – General Education Experience
+
+Spring (approx. 17 units)  ￼
+	•	Calculus II (MATH 129)
+	•	SFWE 101 – Introduction to Software Engineering
+	•	ECE 101 – Programming I
+	•	Second composition course (ENGL 102 or 108)
+	•	Second science course (CHEM 152 or 162/164, or MSE 110, or MCB 181R/L)
+
+Year 2
+Fall (approx. 16 units)  ￼
+	•	Discrete Math for CS (MATH 243)
+	•	Physics I: Mechanics (PHYS 141 or 161H) – can also fulfill Natural Science Gen Ed
+	•	ECE 201 – Programming II
+	•	Gen Ed: Exploring Perspectives (Artist)
+	•	Gen Ed: Exploring Perspectives (Humanist)
+
+Spring (approx. 15 units)  ￼
+	•	SIE 277 – Object-Oriented Modeling & Design
+	•	ECE 274A – Digital Logic
+	•	SFWE 201 – Software Engineering Sophomore Colloquium
+	•	Physics II: Electricity & Magnetism (PHYS 241 or 261H)
+	•	Math / Statistics elective (advisor-approved)
+
+Advanced Standing is required before taking 300- and 400-level engineering courses. ￼
+
+Year 3
+Fall (approx. 13 units)  ￼
+	•	SIE 305 – Engineering Probability & Statistics
+	•	SFWE 301 – Software Requirements Analysis & Test
+	•	SFWE 303 – Data Persistence
+	•	ECE 369A – Fundamentals of Computer Organization
+
+Spring (approx. 16 units)  ￼
+	•	SFWE 302 or SFWE 405 – Software Architecture & Design
+	•	SFWE 401 – Software Assurance & Security
+	•	ECE 311 – Engineering Ethics and Contemporary Issues
+	•	CSC 355 or CSC 345 – discrete structures / algorithms
+	•	Technical elective (advisor-approved)
+	•	Gen Ed: Building Connections
+
+Year 4
+Fall (approx. 15 units)  ￼
+	•	SFWE 403 – Software Project Management
+	•	ENGR 498A – Interdisciplinary Capstone I
+	•	Gen Ed: Exploring Perspectives (Social Scientist)
+	•	Technical elective
+	•	Gen Ed: Building Connections
+
+Spring (approx. 14–16 units)  ￼
+	•	SFWE 402 – DevOps
+	•	Technical electives (1–3 + 3 units)
+	•	ENGR 498B – Interdisciplinary Capstone II
+	•	Gen Ed: Building Connections
+	•	UNIV 301 – General Education Portfolio
+
+Students work with their advisor to select technical electives and Building Connections courses; some technical electives may also fulfill Gen Ed requirements. ￼

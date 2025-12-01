@@ -1,0 +1,146 @@
+Software Engineering Technical Elective Tracks (Guide)
+
+This guide explains the optional technical elective tracks available to BS Software Engineering students. It is meant as a planning tool only. Course offerings and availability by campus or modality can change; students must always confirm details with the official catalog and their academic advisor.  ￼
+
+Tracks are not printed on the transcript, but they help you:
+	•	Build a coherent skill set in a specific area
+	•	Choose 4 or more technical electives that work together
+	•	Communicate a focus area to employers or graduate programs
+
+The main suggested tracks are:
+	1.	AI / Machine Learning
+	2.	Algorithms & Computational Methods
+	3.	Cloud Computing
+	4.	Cybersecurity
+	5.	Data Science / Analytics
+	6.	Embedded & Systems
+
+⸻
+
+1. AI / Machine Learning Track
+
+Focus: Intelligent systems, modeling, and decision-making.
+This track prepares you for roles in machine learning, analytics, data-driven products, and intelligent systems.
+
+Representative courses:
+	•	SIE 433 – Fundamentals of Data Science for Engineers (3)
+	•	Campus: Main, Yuma  ￼
+	•	SIE 431 – Simulation Modeling & Analysis (3)
+	•	Campus: Main  ￼
+	•	SIE 430 – Engineering Statistics (3)
+	•	Campus: Main, Online  ￼
+	•	GAME 426 – Game Artificial Intelligence (3)
+	•	Campus: Main, Yuma  ￼
+	•	ECE 479 – Artificial Intelligence (3)
+	•	Campus: Main  ￼
+	•	CSC 471 (or APCV/CSC(V) 471) – Artificial Intelligence (3)
+	•	Campus: Online, Yuma (availability varies)  ￼
+	•	ECE 425 – Intro to Deep Learning: An Engineering Perspective (3)
+	•	Campus: Main  ￼
+	•	CSC 477 – Intro to Computer Vision (3)
+	•	Campus: Main  ￼
+
+Typical outcomes: ML engineer, data scientist (entry-level), simulation engineer, AI engineer, technical developer on analytics/ML teams.
+
+⸻
+
+2. Algorithms & Computational Methods Track
+
+Focus: Advanced algorithms, numerical methods, and analytical modeling.
+Emphasizes rigorous problem-solving and performance-oriented computation.
+
+Representative courses:
+	•	SIE 431 – Simulation Modeling & Analysis (3)
+	•	Campus: Main, Yuma  ￼
+	•	ECE 429 – Digital Signal Processing (3)
+	•	Campus: Main, Online  ￼
+	•	ECE 330B – Computational Techniques (3)
+	•	Campus: Main  ￼
+
+Typical outcomes: Software engineer with strong algorithms background, roles in optimization, signal processing, simulation and modeling-heavy fields.
+
+⸻
+
+3. Cloud Computing Track
+
+Focus: Building and operating software in modern cloud environments.
+This pairs very naturally with DevOps and large-scale distributed systems.
+
+Representative courses:
+	•	SFWE 410 – Cloud Native (temporarily SIE 496) (3)
+	•	Campus: Main, Online, Yuma  ￼
+	•	SFWE 409 – Principles of Cloud Computing (3)
+	•	Campus: Main, Online, Yuma  ￼
+
+Typical outcomes: Cloud / DevOps engineer, backend or platform engineer, roles that involve microservices, containers, and cloud-native architectures.
+
+⸻
+
+4. Cybersecurity Track
+
+Focus: Secure systems, networks, and cyber operations.
+Best for students interested in defensive security engineering, incident response, or secure system design.
+
+Representative courses (examples):
+	•	SIE 472 – INSuRE (3)
+	•	Campus: Main  ￼
+	•	SIE 471 – Systems Cyber Security Engineering (3)
+	•	Campus: Main, Online, Yuma  ￼
+	•	ECE 478 – Fundamentals of Computer Networks (3)
+	•	Campus: Main, Yuma  ￼
+	•	ECE 471 – Fundamentals of Information Theory & Network Security (3)
+	•	Campus: Main  ￼
+	•	CYBV 480 – Cyber Warfare (3) – Online  ￼
+	•	CYBV 474 – Advanced Analytics for Security Operations (3) – Online  ￼
+	•	CYBV 473 – Violent Python (3) – Online  ￼
+	•	CYBV 454 – Malware Threats & Analysis (3) – Online  ￼
+	•	CYBV 435 – Cyber Threat Intelligence (3) – campus availability may vary  ￼
+
+Additional cybersecurity-supporting courses listed elsewhere in the table include topics such as Linux Security Essentials, Windows Security Essentials, and Intro to Security Scripting in the CYBV curriculum.  ￼
+
+Typical outcomes: Security engineer, security-focused software engineer, SOC analyst (with more SOC/CYBV electives), or systems engineer for critical infrastructure.
+
+⸻
+
+5. Data Science / Analytics Track
+
+Focus: Data engineering, data analysis, visualization, and analytics tooling.
+Ideal if you want your SFWE core + strong data skills for data platforms, analytics-heavy apps, or ML pipelines.
+
+Representative courses (examples from the tech elective table and related listings):
+	•	SIE 433 – Fundamentals of Data Science for Engineers (3) – also listed under AI/ML
+	•	SIE 431 – Simulation Modeling & Analysis (3) – modeling & analytics focus  ￼
+	•	SIE 430 – Engineering Statistics (3)  ￼
+	•	ISTA 322 – Data Engineering (3)  ￼
+	•	ISTA 321 – Data Mining and Discovery (3)  ￼
+	•	ISTA 320 – Applied Data Visualization (3)  ￼
+	•	ISTA 431 – Data Warehousing and Analytics in the Cloud (3)  ￼
+
+(Availability and campus offerings vary; see catalog and advisor.)
+
+Typical outcomes: Software engineer with a data emphasis, data engineer, analytics platform developer, or a bridge role between software engineering and data science.
+
+⸻
+
+6. Embedded & Systems Track
+
+Focus: Software that interacts tightly with hardware, real-time systems, and low-level control.
+Good for students interested in robotics, IoT, automotive, and industrial systems.
+
+Representative courses (examples):
+	•	SIE 370 – Embedded Computer Systems (4)  ￼
+	•	SFWE 411 – Software for Industrial Control Systems (3)  ￼
+	•	ECE 476/576, 576A/B and related embedded/CBSE offerings (listed elsewhere in graduate and advanced course info; check with advisor for undergrad availability).  ￼
+
+Typical outcomes: Embedded software engineer, robotics software engineer, systems engineer, or roles in hardware–software co-design.
+
+⸻
+
+How to Use These Tracks
+	1.	Pick 1–2 tracks that align with your interests (for example, Cloud + Cyber, or AI/ML + Data).
+	2.	For each track, select at least 3–4 courses as your technical electives, making sure you meet all prerequisites.
+	3.	Confirm:
+	•	Course offerings by campus (Main, Online, Yuma, Chandler)
+	•	Prerequisites (e.g., SIE 305, ECE 175, CSC 355/345, etc.)
+	•	Whether the course can count as a tech elective in your specific catalog year. ￼
+	4.	Discuss your plan with your academic advisor to verify it satisfies degree requirements and fits your 4-year plan.

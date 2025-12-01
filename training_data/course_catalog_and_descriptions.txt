@@ -1,0 +1,21 @@
+Description: A detailed list of specific "SFWE" courses. This is useful when users ask "What is covered in course X?"
+
+Content to Include:
+
+SFWE 101: Introduction to Software Engineering - Intro to the field.
+
+SFWE 301: Software Requirements Analysis and Test - Eliciting and validating functional/non-functional requirements.
+
+SFWE 302/405/505: Software Architecture and Design - The blueprint of systems; modularization and enterprise frameworks.
+
+SFWE 401/501: Software Assurance and Security - Ensuring software is free of vulnerabilities and bugs.
+
+SFWE 402: DevOps - Integrating security into the DevOps pipeline; automation.
+
+SFWE 403: Software Project Management - Planning and tracking large-scale projects using Agile.
+
+SFWE 409/509: Principles of Cloud Computing - Cloud infrastructure and modern design.
+
+SFWE 410/510: Cloud-Native Software Engineering - Distributed systems and microservices.
+
+SFWE 513: Software Engineering Research Methods - Methods for conducting research.

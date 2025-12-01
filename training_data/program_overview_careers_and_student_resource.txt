@@ -1,0 +1,19 @@
+Description: This document contains high-level information about the department, career outlooks, student organizations, and contact information. It is best for general inquiries.
+
+Content:
+
+Software Engineering Overview: Software engineers build the technological infrastructure for our increasingly connected world. The University of Arizona BS in software engineering prepares students for high-demand jobs in aerospace, automation, biomedical systems, and data networking. The program covers the entire software development lifecycle (SDLC), including requirements analysis, architecture, assurance, and project management.
+
+Research Opportunities: Faculty and students collaborate on challenges in health care, cybersecurity, big data, and transportation. Key research areas include autonomous systems, cloud/distributed computing, embedded systems, and machine learning.
+
+Career Paths: Graduates work as software architects, developers, and project managers for employers like Google, Amazon, Raytheon, and Honeywell. The median salary for software developers is over $110,000.
+
+Student Life & Clubs: Students gain experience through clubs, design-build competitions, and internships. Organizations include IEEE, IISE/INCOSE, and specific engineering clubs like the National Society of Black Engineers and Society of Women Engineers.
+
+Contacts
+
+1. Department: Electrical & Computer Engineering / Systems & Industrial Engineering
+
+2. Admissions/Grad Coordinator: Tami J Whelan (+1 520-621-6195)
+
+3. Director of Grad Studies: Tosiron Adegbija (+1 520-621-3291) * Undergrad Advising: undergradadvisor@ece.arizona.edu.
