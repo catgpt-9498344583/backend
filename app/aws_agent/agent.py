@@ -173,7 +173,7 @@ class Agent:
             for event in response.get("completion", []):
                 chunk_data = event.get("chunk", {}).get("bytes")
                 if chunk_data:
-                    output += chunk_data.decode(errors="ignore")
+                    output += chunk_data.decode("utf-8", errors="replace")
 
             return {
                 "response": output,
